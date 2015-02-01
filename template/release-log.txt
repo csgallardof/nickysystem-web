@@ -1,0 +1,29 @@
+v.1.0.7
+-Essential Grid updated to 2.0.1
+-Envato Toolkit plugin updated to version 1.7.1
+-Mobile menu update
+v.1.0.6
+-Visual Composer updated to 4.3.5
+v.1.0.5
+-Slider Revolution updated to 4.6.5
+-Essential Grid updated to 2.0
+v.1.0.4
+-Slider Revolution updated to 4.6.4
+-Essential Grid updated to 1.5.4
+-Minor WooCommerce styling fix
+-Data validation improvements
+-Updated WPML config file
+v.1.0.3
+-Last column border fix in mega menu
+-New demo content studio page
+-Essential Grid updated
+v.1.0.2
+-Overlay header option added with new theme options
+-New demo content home pages 
+-Language files updated
+v.1.0.1
+-Sticky header logo top margin now scales proportionally
+-Submenu bug on Mac Chrome browser fixed
+-Demo data file updated
+v.1.0.0
+-Initial release

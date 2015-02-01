@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+	<title>Quince Wordpress Theme - User Guide</title>
+ 	<meta name="description" content="">
+	<meta name="author" content="MNKY Studio">
+	<meta name="copyright" content="MNKY Studio">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-10-24T00:00:00+02:00">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/documenter_style.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+	
+	<style>
+		html, body{background-color:#FFFFFF;color:#383838;}
+		h1,h2,h3,h4,h5,h6{color:#383838;}
+		section table{background-color:#FFFFFF;}
+		::-moz-selection{background:#555555;color:#FFFFFF;}
+		::selection{background:#555555;color:#FFFFFF;}
+		a.brand{background-image:url(assets/images/image_1.png);}
+		a, a:hover, a:active{color:#008C9E;}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+		div.navbar-inner, .navbar .nav li ul{background:#444444;color:#FFFFFF;}
+		a.btn-navbar{background:#444444;color:#FFFFFF;}
+		.navbar .nav li a{color:#FFFFFF;text-shadow:1px 1px 0px #494F4F;}
+		.navbar .nav li a:hover, .navbar .nav li.active a{text-shadow:none;}
+		div.navbar-inner ul{}
+		.marketing-byline{color:#FFFFFF;}
+		.navbar .nav > li a{color:#FFFFFF;}
+		.navbar .nav > li a:hover, a.btn-navbar:hover{background:#555555;color:#FFFFFF;}
+		.navbar .nav .active > a, .navbar .nav .active > a:hover, a.btn-navbar:active{background-color:#555555;color:#FFFFFF;}
+		.navbar .nav li ul li a:hover{background:#555555;color:#FFFFFF;}
+		.navbar .nav li ul li a:active{background:#555555;color:#FFFFFF;}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #008C9E, #006673);
+			  background-image: -ms-linear-gradient(top, #008C9E, #006673);
+			  background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#777777), to(#006673));
+			  background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+			  background-image: -o-linear-gradient(top, #008C9E, #006673);
+			  background-image: linear-gradient(top, #008C9E, #006673);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+			  border-color: #006673 #006673 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  background-color: #006673;
+		}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+	
+	
+    </head>
+    
+<body class="documenter-project-quince-wordpress-theme" data-spy="scroll" id="top">
+
+<!-- Documentation Navbar -->
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container"> 
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+			<a class="brand" href="#">Quince Wordpress Theme - User Guide</a>
+			<div class="nav-collapse">
+			<ul class="nav">
+					
+			<li><a href="#installation_and_setup" title="Installation and Setup">Installation and Setup</a>
+				<ul>
+					<li><a href="#installation_and_setup_installation_and_activation">Installation and activation</a>
+					<li><a href="#installation_and_setup_setting_up_demo_data">Setting up demo data</a>
+					<li><a href="#installation_and_setup_installing_plugins">Installing plugins</a>
+				</ul>
+			</li>
+			<li><a href="#working_with_theme" title="Working With Theme">Working With Theme</a>
+				<ul>
+					<li><a href="#working_with_theme_theme_options_nbsp">Theme options&nbsp;</a>
+					<li><a href="#working_with_theme_mega_menu">Mega Menu</a>
+					<li><a href="#working_with_theme_page_builder">Page builder</a>
+					<li><a href="#working_with_theme_page_templates">Page templates</a>
+					<li><a href="#working_with_theme_headers">Headers</a>
+					<li><a href="#working_with_theme_post_formats">Post Formats</a>
+					<li><a href="#working_with_theme_custom_sidebar">Custom sidebar</a>
+					<li><a href="#working_with_theme_widgets">Widgets</a>
+				</ul>
+			</li>
+			<li><a href="#portfolio_gallery" title="Portfolio & Gallery">Portfolio & Gallery</a></li>
+			<li><a href="#sliders" title="Sliders">Sliders</a></li>
+			<li><a href="#tips" title="Tips">Tips</a></li>
+			<li><a href="#translating_theme" title="Translating theme">Translating theme</a></li>
+			<li><a href="#updating_theme" title="Updating Theme">Updating Theme</a></li>
+
+			</ul>
+			</div>
+		</div>
+	</div>
+</div> <!-- End of Navbar -->
+
+<!-- Main Container Beginning -->			
+			
+<div class="container" id="documenter_content">
+    
+	<div id="documenter-cover">
+	<div class="masthead">
+	    <h1>Quince Wordpress Theme - User Guide</h1>
+	    <p></p>
+	    <ul class="marketing-byline">
+			<li>created: 10/25/2014</li>
+			<li>latest update: 10/24/2014</li>
+			<li>by: MNKY Studio</li>
+			<li><a href="http://themeforest.net/user/MNKY">themeforest.net/user/MNKY</a></li>
+		</ul>
+	    <p class="download-info">
+			
+		</p>
+		
+	</div> <!-- masthead -->
+	
+   <div id="intro">
+    <p class="highlight hero-unit">Thank you for purchasing our product! This user guide will help you to get started with your new theme. </p>
+   </div> <!-- intro -->
+   
+	</div>
+      
+  <section id="installation_and_setup">
+	<div class="page-header"><h3>Installation and Setup</h3><hr class="notop"></div>
+<p>
+	Let&#39;s start with installing and setting up your new theme.</p>
+<h4 id="installation_and_setup_installation_and_activation">Installation and activation</h4>
+<div>
+	Automatic installation</div>
+<ol>
+	<li>
+		Download &quot;All Files and Documentation&quot; package from Themeforest and unzip it.&nbsp;</li>
+	<li>
+		In unzipped folder you will find <strong>quince.zip</strong> file. Do not unzip it one more time.</li>
+	<li>
+		In your WordPress Dashboard navigate to <strong>Appearance &gt; Themes</strong>.</li>
+	<li>
+		Click on <b>Add New Theme</b>, click <strong>Upload Theme</strong> and browse the <strong>quince.zip</strong> file and click <strong>Install Now</strong>.</li>
+	<li>
+		After installation is complete click on <strong>Activate Theme</strong>. Theme is now installed.</li>
+</ol>
+<div>
+	Manual installation</div>
+<ol>
+	<li>
+		Download ZIP package from Themeforest and unzip it.&nbsp;</li>
+	<li>
+		In unzipped folder you will find <strong>quince.zip</strong> file. Unzip it one more time.</li>
+	<li>
+		Simply put unzipped theme folder into your <strong>wp-content/themes</strong> directory.</li>
+</ol>
+<h4 id="installation_and_setup_setting_up_demo_data">Setting up demo data</h4>
+<ol>
+	<li>
+		After theme is activated you will be navigated to Import Data section of the Theme Options.&nbsp;</li>
+	<li>
+		Just click big green button to set everything up.</li>
+	<li>
+		Voil&agrave;, everything is set up including pages, posts, menus, widgets and reading settings.</li>
+</ol>
+<p>
+	<img alt="" src="assets/images/image_18.png" style="width: 907px; height: 460px; margin-top: 40px; margin-bottom: 40px;"></p>
+<div class="alert">
+	If you press Import Demo Data button once again later, it will not duplicate already existing content, which means that it is safe to do that. &nbsp;Menus are the only exception - menu items will be duplicated, even if they already exist.</div>
+<p>
+	&nbsp;</p>
+<h6>
+	Do not feel like importing demo data? No problem, here are steps for manually setting things up:</h6>
+<div>
+	&nbsp;</div>
+<div style="color:#999;">
+	<p>
+		<strong>Setting home page</strong></p>
+	<p>
+		Go to <strong>Settings-&gt;Reading</strong> and select which page to be your home page and which to be the blog.</p>
+	<p>
+		If you do not have any pages, create one called &quot;Home&quot; and one called &quot;Blog&quot;, for example.</p>
+	<p>
+		&nbsp;</p>
+	<p>
+		<strong>Importing demo content</strong></p>
+	<p>
+		If you want to make your website look similar to live preview, you can import Demo Content file.</p>
+	<p>
+		To import demo content use <strong>Tools-&gt;Import-&gt;WordPress</strong> in your dashboard. Then browse the <strong>theme_data </strong>xml file in <strong>Demo_content/Theme_demo_data</strong> folder inside your download package.</p>
+	<p>
+		To import widgets use <a href="https://wordpress.org/plugins/widget-importer-exporter/" target="_blank">Widget Importer and Exporter</a> plugin; <strong>widget_data</strong> wie file is also located in Demo Content folder</p>
+	<p>
+		&nbsp;</p>
+	<p>
+		<strong>Creating menus</strong></p>
+	<p>
+		To create menus for your navigation follow these steps:</p>
+	<ol>
+		<li>
+			In your WordPress Dashboard navigate to <strong>Appearance &gt; Menus</strong>.</li>
+		<li>
+			To create new menu enter a name for it and click <strong>Create Menu</strong>.</li>
+		<li>
+			Now select pages you want to appear in menu and click <strong>Add to Menu</strong>.</li>
+		<li>
+			Now when the pages are added to your menu drag them to change order as you like; to create sub menu just drag menu item slightly to the right and WordPress will place it as sub menu.</li>
+		<li>
+			When ready click <strong>Save Menu</strong>.</li>
+		<li>
+			Select&nbsp; <strong>Manage Locations</strong> tab and select your menu as <strong>Main Navigation </strong>and click <strong>Save</strong>.</li>
+	</ol>
+</div>
+<p>
+	&nbsp;</p>
+<h4 id="installation_and_setup_installing_plugins">Installing plugins</h4>
+<p>
+	Once theme is activated you will see a following message:</p>
+<p>
+	<img alt="" src="assets/images/image_13.png" style="width: 724px; height: 120px; margin-top: 40px; margin-bottom: 40px;"></p>
+<ol>
+	<li>
+		Click <strong>begin installing plugins</strong> to install required plugins.</li>
+	<li>
+		<strong>MNKY Theme Core Extend</strong>&nbsp; and <strong>WPBakery Visual Composer</strong> are required plugins. Hover over the plugin name and press <strong>Install</strong> button.</li>
+	<li>
+		All other plugins are optional, you can install them when you want.</li>
+	<li>
+		You can deactivate or remove any plugin later in classic Dashboard/Plugins section, as they will always be available to install again in <strong>Appearance/Install Plugins</strong>.</li>
+	<li>
+		After <strong>required</strong> plugins are installed, just press <strong>Dismiss this notice</strong> button.</li>
+</ol>
+<p>
+	&nbsp;</p>
+<p>
+	Here is a short description of each included plugin:</p>
+<ul>
+	<li>
+		MNKY Theme Code Extent - plugins that adds theme functions to visual composer and theme itself. Is a required part of the theme.</li>
+	<li>
+		WP Bakery Visual Composer - theme&#39;s page builder.&nbsp;Is a required part of the theme.</li>
+	<li>
+		Envato Toolkit - allows Envato API powered theme updates with backup feature right from dashboard.</li>
+	<li>
+		Revolution Slider - #1 slider plugin with amazing features.</li>
+	<li>
+		Essential Grid - complete portfolio and grid building solution. Can be used for creating blog layouts, custom WooCommerce shop pages and much more.</li>
+	<li>
+		Contact Form 7 - Contact form plug-in used in preview and pre-styled in theme.</li>
+</ul>
+<div class="alert alert-info">
+	If you plan to use bundled premium plugins in another theme, you have to purchase license on CodeCanyon.&nbsp;Links to plugin pages can be found in Appearance/Install Plugins by clicking on plugin name.</div>
+</section>
+<section id="working_with_theme">
+	<div class="page-header"><h3>Working With Theme</h3><hr class="notop"></div>
+<h4 id="working_with_theme_theme_options_nbsp">Theme options&nbsp;</h4>
+<div>
+	Most settings of the theme are managed in Theme Options panel. It can be accessed in your dashboard under <strong>Appearance-&gt;Theme Options</strong>.</div>
+<div>
+	&nbsp;</div>
+<div class="alert alert-info">
+	Settings are divided into categories and tabs for easier navigation. Commentaries describing option are present next to option itself. Take a little time to explore options and possibilities before starting other steps.&nbsp;</div>
+<div>
+	<img alt="" src="assets/images/image_17.png" style="margin-top: 40px; margin-bottom: 40px; width: 1241px; height: 620px;"></div>
+<h4 id="working_with_theme_mega_menu">Mega Menu</h4>
+<p>
+	Our mega menu us super simple to use. Just create menu as you always do. If you want to turn it into mega menu, add class &quot;<strong>megamenu</strong>&quot; to the first level menu item.</p>
+<p>
+	<img alt="" src="assets/images/image_12.png" style="margin-top: 40px; margin-bottom: 40px; width: 417px; height: 307px;"></p>
+<p>
+	Second level menu item will serve as column title and third level items as column content. &nbsp;</p>
+<p>
+	You can have from 2 to 6 columns. If you have 4 second level menu items, it means your mega menu will have 4 columns.&nbsp;</p>
+<p>
+	To hide column title add &quot;<strong>hide-title</strong>&quot; class to second level menu item:</p>
+<p>
+	<img alt="" src="assets/images/image_11.png" style="margin-top: 40px; margin-bottom: 40px;"></p>
+<div class="alert alert-info">
+	If you do not have CSS Classes field, click Screen Options on top right of the Appearance/Menus page and enable it.</div>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<h4 id="working_with_theme_page_builder">Page builder</h4>
+<p>
+	Quince uses drag &amp; drop page builder - Visual Composer - to create the content. You may already be familiar with it, but we will provide some explanation.</p>
+<p>
+	Full&nbsp;<strong>User Guide</strong>&nbsp;for WPBakery Visual Composer is located in&nbsp;<strong>Help Files folder</strong>.&nbsp;</p>
+<p>
+	&nbsp;</p>
+<div class="alert">
+	Note that original user guide differs from theme&#39;s extended version in some cases. But you may still use it for reference in advanced cases.</div>
+<h5>
+	&nbsp;</h5>
+<h5>
+	Here is how it works:</h5>
+<p>
+	In the Visual Composer editor mode you&#39;ll have &quot;Add element&quot; button, which you should click or drag to the working canvas, to add content block or row to your page.</p>
+<p>
+	<strong>Rows</strong></p>
+<p>
+	Rows are used to divide your page into the logic blocks with columns, columns later will hold your content blocks. Rows can be divided into the layouts (eg. 1/2 + 1/2, 1/3 + 1/3 + 1/3, and so on). Your page can have unlimited number of rows. To change row&#39;s position, click and drag row&#39;s drag handler (top left row&#39;s corner) and drag row around (vertical axis).</p>
+<p>
+	<strong>Columns</strong></p>
+<p>
+	Columns are part of the row and they hold your content elements inside them. Columns can be reordered. Click and drag column around (horizontal axis). That way you can group elements in logical groups and then drag them around with your mouse (to re-position).</p>
+<p>
+	<strong>Content Elements</strong></p>
+<p>
+	Content Elements This is a list of available content elements that can be placed on the working canvas or inside of the columns. Think of them as bricks. With those bricks you are building your layout. Most of the content elements have options, to set them click pencil icon. To save changes click save button.&nbsp;</p>
+<h5>
+	&nbsp;</h5>
+<h5>
+	Here is how to use it in Quince:</h5>
+<p>
+	<img alt="" src="assets/images/image_2.png" style="width: 154px; height: 38px; margin-top: 10px; margin-bottom: 10px;"></p>
+<ol>
+	<li>
+		Create a page and press <strong>Backend Editor</strong> button.</li>
+	<li>
+		Click <strong>Add Element</strong> or <strong>Add Row</strong> (when you click add element it is placed automatically into the row).</li>
+	<li>
+		On some elements setting screen pops up first, choose your settings and insert element (almost every setting has explanation under input field).</li>
+	<li>
+		To edit element later click on pencil button.</li>
+	<li>
+		Drag elements to reorder them.</li>
+</ol>
+<p>
+	&nbsp;</p>
+<h5>
+	Some specific element explanations:</h5>
+<p>
+	<strong>Row Settings</strong></p>
+<p>
+	Main Row (the one you get by pressing Add Row) has many settings available and serves as page section.&nbsp;</p>
+<p>
+	Click on pencil icon to edit the row:</p>
+<p>
+	<img alt="" src="assets/images/image_16.png" style="width: 597px; height: 832px; margin-top: 40px; margin-bottom: 40px;"></p>
+<ol>
+	<li>
+		<strong>First tab is general settings</strong></li>
+</ol>
+<ul>
+	<li>
+		You can choose full width content option, for example for sliders, full screen portfolio and other elements inside the row.</li>
+	<li>
+		Paddings define section spacing from bottom and top.</li>
+</ul>
+<ol start="2">
+	<li>
+		<strong>Background tab</strong></li>
+</ol>
+<ul>
+	<li>
+		You can set background color or image for the row.</li>
+	<li>
+		Once background image is set, additional settings will appear.</li>
+	<li>
+		To enable &quot;floating&quot; effect while scrolling, set Fixed position for your background image.</li>
+</ul>
+<ol start="3">
+	<li>
+		<strong>Typography tab</strong></li>
+</ol>
+<ul>
+	<li>
+		You can choose some typography settings that will apply to all content in the row, unless it is overwritten by element or inline style.</li>
+</ul>
+<ol start="4">
+	<li>
+		<strong>Section ID</strong></li>
+</ol>
+<p>
+	<em>This settings is used when creating one page style website.</em></p>
+<p>
+	It is possible to add unique ID to each row. For example, add section ID &quot;<strong>about-us</strong>&quot; to the row. Then in Appearance/Menus create a link with URL <strong>#about-us</strong>. When you click this menu item, page will scroll to the section with about-us ID.</p>
+<ol start="5">
+	<li>
+		<strong>Responsive Options</strong></li>
+</ol>
+<p>
+	Row has Responsive Settings tab. You can create specific content for chosen screen size.</p>
+<p>
+	For example, you want to display different content for the row on mobile devices starting with tablet portrait:</p>
+<p>
+	&nbsp;</p>
+<ol>
+	<li>
+		Hide the row from selected mobile devices.</li>
+</ol>
+<p>
+	<img alt="" src="assets/images/image_8.png" style="width: 752px; height: 242px; margin-top: 40px; margin-bottom: 40px;"></p>
+<ol start="2">
+	<li>
+		Create another row and hide it from desktop and tablet landscape screen sizes.</li>
+</ol>
+<p>
+	<img alt="" src="assets/images/image_9.png" style="width: 754px; height: 239px; margin-top: 40px; margin-bottom: 40px;"></p>
+<ol start="3">
+	<li>
+		As a result first row will be visible on Desktop and Tablet Landscape screen sizes and second row will be visible only on smaller screen sizes. It should look like this (notice the mobile icons):</li>
+</ol>
+<p>
+	<img alt="" src="assets/images/image_15.png" style="margin-top: 40px; margin-bottom: 40px; width: 738px; height: 279px;"></p>
+<p>
+	<strong>Icon Panel</strong></p>
+<p>
+	Icon panel is available for many elements, such as lists, buttons, separators and icon elements itself.&nbsp;</p>
+<p>
+	Just click <strong>Chose Icon</strong> button and select your desired icon for the element.</p>
+<p>
+	<img alt="" src="assets/images/image_4.png" style="width: 740px; height: 413px; margin-top: 40px; margin-bottom: 40px;"></p>
+<div>
+	&nbsp;</div>
+<h4 id="working_with_theme_page_templates">Page templates</h4>
+<div>
+	Each of page templates can have different headers, sidebars and other settings. &nbsp;You can choose from available templates when creating a page.</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Available page templates:</strong></div>
+<ol>
+	<li>
+		Full width template &ndash; page template with no sidebar.</li>
+	<li>
+		Right sidebar template &ndash; page template with right sidebar.</li>
+	<li>
+		Left sidebar template &ndash; page template with left sidebar.</li>
+	<li>
+		Default template &ndash; used by plugins that create pages automatically. <em>Should not be used with page builder.</em></li>
+</ol>
+<p>
+	<strong>Applying page template:</strong></p>
+<ol>
+	<li>
+		In your <strong>Edit Page</strong> (the page you get when you click Add New or edit existing page) section under <strong>Page Attributes</strong> in <strong>Template</strong> dropdown choose a template you need.</li>
+	<li>
+		Now Update your page and template will be applied.</li>
+</ol>
+<p>
+	<img alt="" src="assets/images/image_5.png" style="width: 282px; height: 332px; margin-top: 40px; margin-bottom: 40px;"></p>
+<div class="alert alert-info">
+	Blog and single post layout is managed under:&nbsp;<strong>Theme Options -&gt; Blog &amp; Posts</strong></div>
+<div>
+	<div>
+		&nbsp;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		&nbsp;</div>
+</div>
+<h4 id="working_with_theme_headers">Headers</h4>
+<div>
+	Theme allows selecting custom header element for every page, blog post, WooCommerce product and Essential Grid portfolio entry.</div>
+<div>
+	&nbsp;</div>
+<p>
+	To select header for your page or post use <strong>Advanced Options</strong>&nbsp;located right under content editor.</p>
+<p>
+	&nbsp;</p>
+<ul>
+	<li>
+		Enable or Disable title area for the page.</li>
+</ul>
+<p>
+	If you decide to disable default title, you can add custom title to the page. Here are examples of custom titles <em>(just copy one of them to your page in classic text mode, then swith back to backend editor)</em></p>
+<p>
+	<strong>Title with parallax background. (Replace row background image after copying)</strong></p>
+<pre class="prettyprint lang-html linenums">
+[vc_row bg_image=&quot;1145&quot; row_seperator=&quot;no-seperator&quot; top=&quot;120px&quot; bottom=&quot;120px&quot; font_color=&quot;#ffffff&quot; bg_color=&quot;#536477&quot; bg_repeat=&quot;no-repeat&quot; speed=&quot;0.20&quot; bg_cover=&quot;cover&quot; bg_attachment=&quot;fixed&quot; parallax_bg=&quot;parallax-bg&quot; textalign=&quot;center&quot;][vc_column width=&quot;1/1&quot;][vc_column_text]
+&lt;h1 style=&quot;font-size: 50px;&quot;&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&lt;strong&gt;TITLE WITH PARALLAX&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;
+[/vc_column_text][/vc_column][/vc_row]</pre>
+<p>
+	<strong>Title/subtitle + button</strong></p>
+<pre class="prettyprint lang-html linenums">
+[vc_row row_seperator=&quot;no-seperator&quot; top=&quot;70px&quot; bottom=&quot;35px&quot; textalign=&quot;right&quot; speed=&quot;0.20&quot;][vc_column width=&quot;2/3&quot;][vc_column_text]
+&lt;h1 style=&quot;text-align: left; line-height: 1.4;&quot;&gt;&lt;strong&gt;Custom Page Title&lt;/strong&gt;&lt;/h1&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: #999;&quot;&gt;Create custom title styles for any of your pages.
+You can disable and replace default title in page options.&lt;/span&gt;
+[/vc_column_text][/vc_column][vc_column width=&quot;1/3&quot;][vc_empty_space height=&quot;51px&quot;][vc_button title=&quot;Completely Customizable&quot; size=&quot;btn-large&quot; color=&quot;btn_themecolor&quot; link=&quot;||&quot;][/vc_column][/vc_row]</pre>
+<p>
+	&nbsp;</p>
+<ul>
+	<li>
+		Add Pre-content area to your page, which will be placed right before the content. It supports any content and has integrated Revolution Slider choice. This section is especially handy for templates with sidebar.</li>
+</ul>
+<p>
+	<img alt="" src="assets/images/image_10.png" style="width: 761px; height: 505px; margin-top: 40px; margin-bottom: 40px;"></p>
+<div class="alert">
+	Changes made in this section will not be seen when using page preview option; save the page for settings to take effect.</div>
+<div>
+	&nbsp;</div>
+<h4 id="working_with_theme_post_formats">Post Formats</h4>
+<p>
+	You can choose from various post formats. They are located in format tab when editing the post.</p>
+<div>
+	<img alt="" src="assets/images/image_6.png" style="width: 282px; height: 279px; margin-top: 40px; margin-bottom: 40px;"></div>
+<div>
+	Formats available are:</div>
+<div>
+	&nbsp;</div>
+<ul>
+	<li>
+		Standard - featured image is not displayed in blog or single post, only post content is displayed.</li>
+	<li>
+		Image&nbsp;&nbsp;- featured image is displayed when viewing blog and single post. You can also post external image link in Post Format Options (under editor text field and advanced options).</li>
+	<li>
+		Gallery - attached image gallery slider displayed in blog and single post.&nbsp;Slider will use images attached to this post.</li>
+	<li>
+		Video - embedded video is displayed in blog and single post. Add the video link to Post Format Options.</li>
+	<li>
+		Audio - embedded audio is displayed in blog and single post.&nbsp;Add the audio link to Post Format Options or attach file to the post.</li>
+	<li>
+		Status - a twitter-status like format for displaying post content.</li>
+	<li>
+		Quote - format for displaying quotes. Use author as title and quote as text in editor.</li>
+	<li>
+		Link - just post unformatted link to editor and save the post.</li>
+</ul>
+<div>
+	&nbsp;</div>
+<div>
+	Post Format Option field examples:</div>
+<div>
+	<img alt="" src="assets/images/image_7.jpg" style="width: 761px; height: 1043px; margin-top: 40px; margin-bottom: 40px;"></div>
+<div class="alert alert-info">
+	&nbsp;You can see all post formats in demo content.</div>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<h4 id="working_with_theme_custom_sidebar">Custom sidebar</h4>
+<div>
+	&nbsp;</div>
+<div>
+	By default all pages with sidebar will have widgets you placed into in <strong>Page Sidebar </strong>and blog and posts uses<strong> Blog/Post sidebar</strong>.&nbsp;</div>
+<div>
+	&nbsp;</div>
+<ol>
+	<li>
+		To set custom sidebar in <strong>Custom Sidebar</strong> panel check <strong>Activate Custom Sidebar</strong> and choose which sidebar you would like to replace. It is located below content input field.</li>
+</ol>
+<p>
+	<img alt="" src="assets/images/image_3.png" style="width: 763px; height: 429px; margin-top: 40px; margin-bottom: 40px;"></p>
+<ol start="2" style="list-style-type: decimal;">
+	<li>
+		When you do so, a new sidebar for your page will be created in the Appearance&gt;Widgets.</li>
+	<li>
+		New sidebar will have the name of the page where it was created.</li>
+	<li>
+		Just drag and drop widgets to your new sidebar.</li>
+</ol>
+<div>
+	&nbsp;</div>
+<h4 id="working_with_theme_widgets">Widgets</h4>
+<div>
+	Widgets are controlled in <strong>Appearance-&gt;Widgets</strong>. You just have to drag your widgets to widget area you want them to appear in.</div>
+<div>
+	&nbsp;</div>
+<div class="alert">
+	Top Sidebar Right and Top Sidebar Left are enabled in Theme Options/Header/Top Bar.</div>
+</section>
+<section id="portfolio_gallery">
+	<div class="page-header"><h3>Portfolio & Gallery</h3><hr class="notop"></div>
+<h5>
+	Single portfolio entry</h5>
+<p>
+	Quince enables custom post type for creating portfolio.&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_14.png" style="width: 159px; height: 314px; margin-top: 40px; margin-bottom: 40px;"></p>
+<p>
+	<strong>Example usage:</strong></p>
+<ul>
+	<li>
+		Add new item.</li>
+	<li>
+		Asign categories or/and tags to it.</li>
+	<li>
+		Set featured image.</li>
+	<li>
+		Choose item options (tab on the right).</li>
+	<li>
+		Add a content (Enable page builder for porfolio in Settings/Visual Composer).&nbsp;</li>
+	<li>
+		Create Essential grid and choose custom portfolio posts as source.</li>
+</ul>
+<p>
+	&nbsp;</p>
+<h5>
+	Essential Grid</h5>
+<p>
+	Portfolios, galleries and custom layouts for blog posts or any other custom post types are made with Essential Grid included and integrated with Quince. Essential Grid is a complete Portfolio, Grid, Gallery &amp; Blog building solution. You can use any of 30+ ready skins right away or create your own in minutes.&nbsp;</p>
+<p>
+	Full <strong>User Guide</strong> for Essential Grid is located in <strong>Help Files folder</strong>.</p>
+<ul>
+	<li>
+		Once grid is created, use Page Builder on your page to insert Essential Grid element.</li>
+</ul>
+</section>
+<section id="sliders">
+	<div class="page-header"><h3>Sliders</h3><hr class="notop"></div>
+<h5>
+	<strong>Revolution Slider</strong>. &nbsp;</h5>
+<p class="warning">
+	Full&nbsp;<strong>User Guide</strong>&nbsp;for Revolution Slider is located in&nbsp;<strong>Help Files folder</strong>.</p>
+<p class="warning">
+	&nbsp;</p>
+<p>
+	You can import demo sliders from files we provide in&nbsp;Demo Content folder:</p>
+<ol>
+	<li>
+		Create new slider.</li>
+	<li>
+		After slider is created&nbsp;Show Export / Import button will appear in the bottom of the slider settings. Browse demo slide file and press import.</li>
+	<li>
+		Now slider is imported and you can edit the slides and settings.</li>
+</ol>
+<p>
+	&nbsp;</p>
+<div class="alert alert-info">
+	Once slider is created, use Page Builder on your page to insert Slider Revolution element.</div>
+</section>
+<section id="tips">
+	<div class="page-header"><h3>Tips</h3><hr class="notop"></div>
+<h5>
+	Page Builder elements in widgets</h5>
+<div>
+	&nbsp;</div>
+<div>
+	To add page builder elements to widget:</div>
+<div>
+	&nbsp;</div>
+<ol>
+	<li>
+		Create a page and insert elements like it is normally done.</li>
+	<li>
+		When ready, switch to classic mode in the editor.</li>
+</ol>
+<div>
+	You will get something like this:<br>
+	&nbsp;</div>
+<pre class="prettyprint lang-html linenums">
+[vc_row speed=&quot;0.20&quot; row_seperator=&quot;no-seperator&quot; top=&quot;70px&quot; bottom=&quot;70px&quot;][vc_column width=&quot;1/1&quot;][vc_icon name=&quot;fa-check&quot; icon_size=&quot;28px&quot; icon_color=&quot;#444444&quot; padding_left=&quot;0px&quot; padding_right=&quot;0px&quot;][/vc_column][/vc_row]</pre>
+<ol start="3" style="list-style-type: decimal;">
+	<li>
+		Remove rows and columns, so the result will be like this:</li>
+</ol>
+<pre class="prettyprint lang-html linenums">
+[vc_icon name=&quot;fa-check&quot; icon_size=&quot;28px&quot; icon_color=&quot;#444444&quot; padding_left=&quot;0px&quot; padding_right=&quot;0px&quot;]</pre>
+<ol start="3" style="list-style-type: decimal;">
+	<li>
+		Now copy what you got to Text Widget.</li>
+</ol>
+<p>
+	&nbsp;</p>
+<h5>
+	To Top button</h5>
+<div>
+	&nbsp;</div>
+<div>
+	To add to top button add link anywhere and set:&nbsp;</div>
+<pre class="prettyprint lang-html linenums">
+#top </pre>
+<div>
+	as an URL.</div>
+<div>
+	&nbsp;</div>
+<h5>
+	Divide post or page into multiple pages</h5>
+<div>
+	&nbsp;</div>
+<div>
+	To divide post or page into pages add &nbsp;</div>
+<pre class="prettyprint lang-html linenums">
+&lt;!--nextpage--&gt;</pre>
+<div>
+	where you want page to end.</div>
+<div>
+	&nbsp;</div>
+<h5>
+	Add &ldquo;Read More&rdquo; to the post</h5>
+<div>
+	&nbsp;</div>
+<div>
+	To add read more button to your posts, when full content mode is selected you should use WordPress more tag.&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<a href="http://en.support.wordpress.com/splitting-content/more-tag/">http://en.support.wordpress.com/splitting-content/more-tag/</a></div>
+<p>
+	&nbsp;</p>
+</section>
+<section id="translating_theme">
+	<div class="page-header"><h3>Translating theme</h3><hr class="notop"></div>
+<ol>
+	<li>
+		Copy <strong>quince.po </strong>or<strong> quince-frontend.po</strong>&nbsp;file from <strong>quince/languages</strong> folder to your desktop for editing.</li>
+	<li>
+		Download <a href="http://www.poedit.net/">Poedit</a> and open the file with it.</li>
+	<li>
+		Choose the text to edit and enter your translation in the bottom box.</li>
+	<li>
+		Save your .po file according to <a href="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Language-Codes">language code</a>&nbsp;followed by <a href="http://www.gnu.org/software/gettext/manual/gettext.html#Country-Codes">country code</a>.&nbsp;If your translation is written in German, your file name will look like de<code>_DE.po</code></li>
+	<li>
+		Once you save, Poedit by default automatically creates a .mo file alongside your .po file.</li>
+	<li>
+		Upload the .po and .mo files you just created to your /languages folder so they are in the same directory as the quince.po</li>
+	<li>
+		Open <strong>wp-content</strong>&nbsp;folder and and create /<strong>languages</strong> folder, if it is not already there.</li>
+	<li>
+		Upload the WordPress .mo file corresponding to the desired language (de_DE.mo for example) into your /languages folder.&nbsp;</li>
+	<li>
+		In Settings/General scroll to the last setting and choose the language.</li>
+</ol>
+<p>
+	&nbsp;</p>
+<div class="alert alert-info">
+	For multilanguage website please use <a href="http://wpml.org/" target="_blank">WPML</a> plugin.</div>
+</section>
+<section id="updating_theme">
+	<div class="page-header"><h3>Updating Theme</h3><hr class="notop"></div>
+<h5>
+	Theme</h5>
+<p>
+	For automatic theme updates please install <strong>Envato Toolkit </strong>plugin from Appearance/Install Plugins interface.</p>
+<ol>
+	<li>
+		Enter all required information in Envato Toolkit page in your Dashboard.</li>
+	<li>
+		Once new theme version is available you will be notified on&nbsp;Envato Toolkit page (no notifications will be shown on other dashboard pages).</li>
+	<li>
+		Click <strong>update automatically.</strong></li>
+</ol>
+<div class="alert alert-info">
+	If you want to receive theme update notifications to your email. Go to downloads section at Theme Forest and check &quot;Get notified by email when this item is updated&quot;.</div>
+<h5>
+	Plugins</h5>
+<p>
+	If any of bundled plugins is updated you will see update notification (unless you pressed dismiss message earlier - if this case just do the next step).</p>
+<ol>
+	<li>
+		To update plugins go to Appearance/Install Plugins and hover plugin name to reveal update link.</li>
+</ol>
+<div class="alert">
+	We encourage you to check change log on item description page to see, which plugins were updated.&nbsp;</div>
+<h5>
+	&nbsp;</h5>
+<h5>
+	Manual theme updates</h5>
+<h5>
+	WordPress update</h5>
+<ol>
+	<li>
+		Activate default wordpress theme.</li>
+	<li>
+		Delete old version of the theme.</li>
+	<li>
+		Upload new theme version.</li>
+</ol>
+<h5>
+	FTP update</h5>
+<ol>
+	<li>
+		Delete contents of wp-content/aperture folder via ftp or hosting panel.</li>
+	<li>
+		Upload contents of updated aperture.zip folder.</li>
+</ol>
+<p>
+	&nbsp;</p>
+</section>
+
+
+
+    <hr />
+
+<footer>
+    <p>Copyright MNKY Studio 2014 made with the <a href="http://rxa.li/documenter">Documenter v2.0</a></p>
+</footer>
+
+</div><!-- /container --> 
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script>document.createElement('section');var duration='500',easing='swing';</script>
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-min.js"></script> 
+</body>
+</html>

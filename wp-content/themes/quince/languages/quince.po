@@ -1,0 +1,1914 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Quince v1.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-11-17 13:20:50+0000\n"
+"Last-Translator: MNKY <info@mnkystudio.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../../../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:9
+#@ quince
+msgid "404"
+msgstr ""
+
+#: 404.php:10
+#@ quince
+msgid "Something went wrong :&#40;"
+msgstr ""
+
+#: 404.php:11
+#@ quince
+msgid "Sorry! We could not find your page. Perhaps searching can help."
+msgstr ""
+
+#: comments.php:20
+#: inc/custom-functions.php:28
+#: inc/custom-functions.php:63
+#, php-format
+#@ quince
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:25
+#: comments.php:43
+#@ quince
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:26
+#: comments.php:44
+#@ quince
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:49
+#@ quince
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:63
+#@ quince
+msgid "Name"
+msgstr ""
+
+#: comments.php:69
+#@ quince
+msgid "Email"
+msgstr ""
+
+#: comments.php:75
+#@ quince
+msgid "Website"
+msgstr ""
+
+#: comments.php:80
+#@ quince
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:82
+#@ quince
+msgid "Cancel reply"
+msgstr ""
+
+#: content-audio.php:25
+#: content-gallery.php:58
+#: content-image.php:39
+#: content-link.php:14
+#: content-link.php:16
+#: content-quote.php:14
+#: content-status.php:17
+#: content-video.php:24
+#: content.php:18
+#, php-format
+#@ quince
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-audio.php:36
+#: content-gallery.php:69
+#: content-image.php:50
+#: content-video.php:35
+#: content.php:29
+#: page-left-sidebar.php:18
+#: page-right-sidebar.php:18
+#@ quince
+msgid "Pages:"
+msgstr ""
+
+#: content-audio.php:51
+#: content-gallery.php:84
+#: content-image.php:65
+#: content-video.php:50
+#: content.php:43
+#@ quince
+msgid "Read more..."
+msgstr ""
+
+#: content-gallery.php:49
+#: content-image.php:28
+#, php-format
+#@ quince
+msgid "Please install <a href=\"%s\" >MNKY Theme Core Extend</a> plugin to enable this feature!"
+msgstr ""
+
+#: content-none.php:9
+#@ quince
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:16
+#@ quince
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords. <br/> Type some text and hit enter."
+msgstr ""
+
+#: content-none.php:21
+#@ quince
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help. <br/> Type some text and hit enter."
+msgstr ""
+
+#: functions.php:72
+#: inc/theme-options-extend/theme-options.php:445
+#@ quince
+msgid "Menu"
+msgstr ""
+
+#: header.php:77
+#@ quince
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/custom-functions.php:20
+#@ quince
+msgid "Posted in"
+msgstr ""
+
+#: inc/custom-functions.php:24
+#@ quince
+msgid "Written by"
+msgstr ""
+
+#: inc/custom-functions.php:24
+#: inc/custom-functions.php:59
+#, php-format
+#@ quince
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/custom-functions.php:28
+#: inc/custom-functions.php:63
+#@ quince
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/custom-functions.php:28
+#: inc/custom-functions.php:63
+#@ quince
+msgid "% Comments"
+msgstr ""
+
+#: inc/custom-functions.php:55
+#@ quince
+msgctxt "Posted in"
+msgid "in"
+msgstr ""
+
+#: inc/custom-functions.php:59
+#@ quince
+msgctxt "Posted by"
+msgid "by"
+msgstr ""
+
+#: inc/plugins/breadcrumbs.php:35
+#@ quince
+msgid "Home"
+msgstr ""
+
+#: inc/plugins/breadcrumbs.php:177
+#@ quince
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/plugins/per-page-sidebars.php:72
+#: inc/plugins/per-page-sidebars.php:73
+#@ quince
+msgid "Custom Sidebar"
+msgstr ""
+
+#: inc/plugins/per-page-sidebars.php:91
+#@ quince
+msgid "Activate Custom Sidebar?"
+msgstr ""
+
+#: inc/plugins/per-page-sidebars.php:94
+#@ quince
+msgid "Select a sidebar to replace:"
+msgstr ""
+
+#: inc/sidebars.php:10
+#@ quince
+msgid "Blog/Post Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:12
+#@ quince
+msgid "Appears on blog layout and posts"
+msgstr ""
+
+#: inc/sidebars.php:20
+#@ quince
+msgid "Page Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:22
+#@ quince
+msgid "Appears as default sidebar on pages"
+msgstr ""
+
+#: inc/sidebars.php:31
+#@ quince
+msgid "Top Bar Sidebar Left"
+msgstr ""
+
+#: inc/sidebars.php:33
+#@ quince
+msgid "Top bar widget area (align left)"
+msgstr ""
+
+#: inc/sidebars.php:41
+#@ quince
+msgid "Top Bar Sidebar Right"
+msgstr ""
+
+#: inc/sidebars.php:43
+#@ quince
+msgid "Top bar widget area (align right)"
+msgstr ""
+
+#: inc/sidebars.php:52
+#@ quince
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: inc/sidebars.php:54
+#: inc/sidebars.php:64
+#: inc/sidebars.php:74
+#: inc/sidebars.php:84
+#: inc/sidebars.php:94
+#@ quince
+msgid "Appears in the footer section"
+msgstr ""
+
+#: inc/sidebars.php:62
+#@ quince
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: inc/sidebars.php:72
+#@ quince
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: inc/sidebars.php:82
+#@ quince
+msgid "Footer Sidebar 4"
+msgstr ""
+
+#: inc/sidebars.php:92
+#@ quince
+msgid "Copyright Area"
+msgstr ""
+
+#: inc/sidebars.php:101
+#@ quince
+msgid "WooCommerce Page Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:103
+#@ quince
+msgid "Product page widget area"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:385
+#@ quince
+msgid "General"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1014
+#: inc/theme-options-extend/theme-options.php:1576
+#: inc/theme-options-extend/theme-options.php:1666
+#@ quince
+msgid "Background"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:48
+#@ quince
+msgid "Typography"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:35
+#: inc/theme-options-extend/config.php:50
+#: inc/theme-options-extend/config.php:65
+#: inc/theme-options-extend/meta-boxes.php:200
+#@ quince
+msgid "Full width"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:40
+#@ quince
+msgid "Boxed layout"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:55
+#: inc/theme-options-extend/meta-boxes.php:195
+#@ quince
+msgid "Fixed width"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:70
+#@ quince
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:75
+#@ quince
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:85
+#@ quince
+msgid "Pattern"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:90
+#@ quince
+msgid "Pattern 1"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:95
+#@ quince
+msgid "Pattern 2"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:100
+#@ quince
+msgid "Pattern 3"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:105
+#@ quince
+msgid "Pattern 4"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:110
+#@ quince
+msgid "Pattern 5"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:115
+#@ quince
+msgid "Pattern 6"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:120
+#@ quince
+msgid "Pattern 7"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:125
+#@ quince
+msgid "Pattern 8"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:130
+#@ quince
+msgid "Pattern 9"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:135
+#@ quince
+msgid "Pattern 10"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:140
+#@ quince
+msgid "Pattern 11"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:145
+#@ quince
+msgid "Pattern 12"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:150
+#@ quince
+msgid "Pattern 13"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:155
+#@ quince
+msgid "Pattern 14"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:160
+#@ quince
+msgid "Pattern 15"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:165
+#@ quince
+msgid "Pattern 16"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:170
+#@ quince
+msgid "Pattern 17"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:175
+#@ quince
+msgid "Pattern 18"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:180
+#@ quince
+msgid "Pattern 19"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:185
+#@ quince
+msgid "Pattern 20"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:190
+#@ quince
+msgid "Pattern 21"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:195
+#@ quince
+msgid "Pattern 22"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:200
+#@ quince
+msgid "Pattern 23"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:205
+#@ quince
+msgid "Pattern 24"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:210
+#@ quince
+msgid "Pattern 25"
+msgstr ""
+
+#: inc/theme-options-extend/config.php:215
+#@ quince
+msgid "Pattern 26"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:35
+#@ quince
+msgid "Revolution slider"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:44
+#@ quince
+msgid "Select slider"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:55
+#@ quince
+msgid "Advanced Options"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:62
+#@ quince
+msgid "Show Title"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:69
+#@ quince
+msgid "Pre-content area"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:72
+#@ quince
+msgid "Activates additional area before page title and main content"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:79
+#@ quince
+msgid "Pre-content area options"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:83
+#@ quince
+msgid "Height (optional)"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:86
+#@ quince
+msgid "Pre-content area height. Example: <code>250px</code>"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:100
+#@ quince
+msgid "Custom HTML"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:104
+#@ quince
+msgid "Insert any custom code you wish. <code>Shortcodes</code> allowed!"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:112
+#@ quince
+msgid "Post Format Options"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:119
+#@ quince
+msgid "Image link"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:122
+#, php-format
+#@ quince
+msgid "Link to the image (if image post format selected).  Or use \"Featured image\" option instead. More about supported formats at %s."
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:125
+#@ quince
+msgid "Audio link"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:128
+#, php-format
+#@ quince
+msgid "Link to the audio (if audio post format selected). Or attach audio file to post instead. More about supported formats at %s."
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:131
+#@ quince
+msgid "Video link"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:134
+#, php-format
+#@ quince
+msgid "Link to the video (if video post format selected). More about supported formats at %s."
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:140
+#@ quince
+msgid "Gallery post format"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:144
+#@ quince
+msgid "Animation style"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:148
+#@ quince
+msgid "This option will determine the animation type of the slider"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:152
+#@ quince
+msgid "Fade"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:157
+#@ quince
+msgid "Slide"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:163
+#@ quince
+msgid "Slide delay (milliseconds)"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:167
+#@ quince
+msgid "Set the speed of the slideshow cycling, in milliseconds"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:170
+#@ quince
+msgid "Slider height (px)"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:180
+#@ quince
+msgid "Portfolio Item Options"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:188
+#@ quince
+msgid "Portfolio Item Layout"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:206
+#@ quince
+msgid "Featured Image In Post"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:213
+#@ quince
+msgid "Image Width"
+msgstr ""
+
+#: inc/theme-options-extend/meta-boxes.php:221
+#@ quince
+msgid "Image Height"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:32
+#@ quince
+msgid "General Options"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:36
+#@ quince
+msgid "Header"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:40
+#@ quince
+msgid "Title Area"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:44
+#@ quince
+msgid "Content Colors"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:52
+#: inc/theme-options-extend/theme-options.php:1524
+#@ quince
+msgid "Footer"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:56
+#@ quince
+msgid "Blog &amp; Posts"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:60
+#@ quince
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:64
+#: inc/theme-options-extend/theme-options.php:2167
+#@ quince
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:68
+#@ quince
+msgid "Import Demo"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:72
+#@ quince
+msgid "Import Successful"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:78
+#@ quince
+msgid "Primary"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:93
+#@ quince
+msgid "Theme accent color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:94
+#@ quince
+msgid "This will be general color scheme for your website. Click input field for color picker."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:108
+#@ quince
+msgid "Layout style"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:109
+#@ quince
+msgid ""
+"1. Full width layout <br />\n"
+"2. Boxed layout"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:124
+#@ quince
+msgid "Header width"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:125
+#@ quince
+msgid ""
+"For full width layout you can chose from 2 header styles:<br />\n"
+"1. Full width<br />\n"
+"2. Same as content width"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:141
+#@ quince
+msgid "Content width"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:142
+#@ quince
+msgid "This setting will apply selected layout width to your website."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:156
+#@ quince
+msgid "940px"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:161
+#@ quince
+msgid "980px"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:166
+#@ quince
+msgid "1100px"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:173
+#@ quince
+msgid "Scroll to top button"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:174
+#@ quince
+msgid "Enable or disable \"To Top\" button when you scroll down."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:188
+#@ quince
+msgid "Comments on page"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:189
+#@ quince
+msgid "Turn ON or OFF comments on pages."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:203
+#@ quince
+msgid "Body background"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:204
+#@ quince
+msgid "Choose body background for boxed layout."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:218
+#@ quince
+msgid "Predefined pattern"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:219
+#@ quince
+msgid "Select background pattern for boxed layout."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:233
+#@ quince
+msgid "Patterns"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:248
+#@ quince
+msgid "Favicons"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:263
+#@ quince
+msgid "Favicon"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:264
+#@ quince
+msgid "Size 16x16 px. Upload image in .ico format."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:278
+#@ quince
+msgid "iPhone icon"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:279
+#@ quince
+msgid ""
+"If set, anyone who saves your webpage to the home screen will see a nice app-like icon. <br />\n"
+"Recommended image format is .png. <br />\n"
+"Size 60x60 px."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:295
+#@ quince
+msgid "iPhone retina icon"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:296
+#@ quince
+msgid "Size 120x120 px."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:310
+#@ quince
+msgid "iPad icon"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:311
+#@ quince
+msgid "Size 76x76 px."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:325
+#@ quince
+msgid "iPad retina icon"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:326
+#@ quince
+msgid "Size 152x152 px."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:340
+#@ quince
+msgid "Analytics &amp; Custom code"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:355
+#@ quince
+msgid "Analytics / tracking code"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:356
+#@ quince
+msgid "Paste your Google Analytics or other tracking code in text area. Or any code to be placed before <code><span>&lt;</span>/head&gt;</code> in header file."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:370
+#@ quince
+msgid "Code before <span>&lt;</span>/body&gt;"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:371
+#@ quince
+msgid "Add your custom code in footer before <code><span>&lt;</span>/body&gt;</code> tag."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:400
+#@ quince
+msgid "Sticky header"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:401
+#@ quince
+msgid "Do you want a header to stick to top while you scroll?"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:415
+#@ quince
+msgid "Header height"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:416
+#@ quince
+msgid "Height of the header area (menu area). Example: <code>65px</code>"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:430
+#@ quince
+msgid "Header background color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:431
+#@ quince
+msgid "Choose your site header color."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:460
+#@ quince
+msgid "Search button in menu"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:461
+#@ quince
+msgid "Enables or disables search from menu."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:475
+#@ quince
+msgid "WooCommerce cart button in menu"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:476
+#@ quince
+msgid "Do you want a smart WooCommerce cart icon in main menu?"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:490
+#@ quince
+msgid "Menu margin right"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:491
+#@ quince
+msgid "Move your menu horizontally with this option. Remember to add <code>px</code> value after the number. For example: <code>25px</code>"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:505
+#@ quince
+msgid "Menu link color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:506
+#: inc/theme-options-extend/theme-options.php:835
+#: inc/theme-options-extend/theme-options.php:850
+#: inc/theme-options-extend/theme-options.php:865
+#: inc/theme-options-extend/theme-options.php:1030
+#: inc/theme-options-extend/theme-options.php:1090
+#: inc/theme-options-extend/theme-options.php:1105
+#@ quince
+msgid "Click input field for color picker or enter your custom value."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:520
+#@ quince
+msgid "Menu link hover color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:521
+#: inc/theme-options-extend/theme-options.php:1240
+#: inc/theme-options-extend/theme-options.php:1622
+#: inc/theme-options-extend/theme-options.php:1712
+#@ quince
+msgid "Leave empty to use \"Theme accent color\"."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:535
+#@ quince
+msgid "Menu item background hover color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:536
+#: inc/theme-options-extend/theme-options.php:644
+#@ quince
+msgid ""
+"Background color for hovered menu item. <br />\n"
+"Leave empty for transparent black cover with 10% opacity."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:551
+#@ quince
+msgid "Menu bottom border"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:552
+#@ quince
+msgid ""
+"Sets 1px bottom border for menu. <br />\n"
+"Leave empty for no border."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:567
+#@ quince
+msgid "Show submenu styles?"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:568
+#@ quince
+msgid "Enable submenu styling."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:582
+#@ quince
+msgid "Submenu background color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:583
+#@ quince
+msgid ""
+"Background color for the submenu section. <br />\n"
+"Leave empty for same color as header."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:598
+#@ quince
+msgid "Submenu link color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:599
+#@ quince
+msgid "Color for links in submenu. Leave empty for main menu link color."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:613
+#@ quince
+msgid "Submenu link hover color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:614
+#@ quince
+msgid "Hover color for links in megamenu. Leave empty for main menu link color."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:628
+#@ quince
+msgid "Submenu title color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:629
+#@ quince
+msgid "Color for column title inside megamenu."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:643
+#@ quince
+msgid "Submenu item background hover color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:659
+#@ quince
+msgid "Active menu item background color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:660
+#@ quince
+msgid ""
+"Background color for hovered submenumenu item. <br />\n"
+"Leave empty for transparent white cover with 6% opacity."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:675
+#@ quince
+msgid "Megamenu column separator color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:676
+#@ quince
+msgid "Leave empty for default color."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:690
+#: inc/theme-options-extend/theme-options.php:705
+#@ quince
+msgid "Logo"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:706
+#@ quince
+msgid "Please choose an image file for your logo."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:720
+#@ quince
+msgid "Logo (Retina version @2x)"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:721
+#: inc/theme-options-extend/theme-options.php:925
+#@ quince
+msgid "Retina logo should be <code>2x</code> the size of default logo keeping the aspect ratio!"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:735
+#@ quince
+msgid "Standart logo width (for retina logo)"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:736
+#@ quince
+msgid ""
+"If retina logo is uploaded, please enter the STANDARD (1x) logo width.<br />\n"
+"Remember to add <code>px</code> value in the end. Example: <code>100px</code>"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:751
+#@ quince
+msgid "Standart logo height (for retina logo)"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:752
+#@ quince
+msgid ""
+"If retina logo is uploaded, please enter the STANDARD (1x) logo height.<br />\n"
+"Remember to add <code>px</code> value in the end. Example: <code>100px</code>code"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:767
+#@ quince
+msgid "Margin top"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:768
+#@ quince
+msgid "Move your logo vertically with this option. Remember to add <code>px</code> value after the number. For example: <code>25px</code>px"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:782
+#@ quince
+msgid "Margin left"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:783
+#@ quince
+msgid "Move your logo horizontally with this option. Remember to add <code>px</code> value after the number. For example: <code>25px</code>"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:797
+#@ quince
+msgid "Top bar"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:812
+#@ quince
+msgid "Header top bar"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:813
+#@ quince
+msgid "Top bar appears in header above the menu. If activated, new widget areas appear in Appearance/Widgets - 'Top Bar Sidebar Left' and 'Top Bar Sidebar Right'."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:827
+#@ quince
+msgid "Enable Top Bar"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:834
+#@ quince
+msgid "Background color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:849
+#@ quince
+msgid "Text and link color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:864
+#: inc/theme-options-extend/theme-options.php:1179
+#: inc/theme-options-extend/theme-options.php:1239
+#: inc/theme-options-extend/theme-options.php:1621
+#: inc/theme-options-extend/theme-options.php:1711
+#@ quince
+msgid "Link hover color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:879
+#: inc/theme-options-extend/theme-options.php:894
+#@ quince
+msgid "Overlay header"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:895
+#@ quince
+msgid "Default header style positions above the content.<br /> Overlay header style overlays the content."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:909
+#@ quince
+msgid "Optional overlay header logo"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:910
+#@ quince
+msgid "Please use the same exact size logo as the original one."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:924
+#@ quince
+msgid "Optional overlay header logo (Retina version @2x)"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:939
+#@ quince
+msgid "Overlay header background (optional)"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:940
+#@ quince
+msgid "Set backgound color for the overlay header."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:954
+#@ quince
+msgid "Background color opacity"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:955
+#@ quince
+msgid "Change selected background color opacity. <br />0 = fully transparent and 100 = fully opaque."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:969
+#@ quince
+msgid "Overlay header background when sticked & mobile view"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:970
+#@ quince
+msgid "This is the background color of the sticky header when scrolled down. <br/> Same color will be applied to menu in mobile view."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:984
+#@ quince
+msgid "Which page(s) will use overlay header?"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:985
+#@ quince
+msgid "Check page(s) where you want overlay header to be active."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:999
+#@ quince
+msgid "Background &amp; colors"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1015
+#: inc/theme-options-extend/theme-options.php:1577
+#: inc/theme-options-extend/theme-options.php:1667
+#@ quince
+msgid "You can either use color or upload a background image. Leave blank for default setting."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1029
+#@ quince
+msgid "Title color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1044
+#@ quince
+msgid "Border color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1045
+#@ quince
+msgid "Set 3px wide border color below title area. Leave empty for no border."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1059
+#: inc/theme-options-extend/theme-options.php:1074
+#@ quince
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1075
+#@ quince
+msgid "Enable or disable breadcrumbs under the page or post title."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1089
+#@ quince
+msgid "Breadcrumb color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1104
+#@ quince
+msgid "Breadcrumb hover color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1119
+#@ quince
+msgid "Global"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1134
+#@ quince
+msgid "Body text color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1135
+#@ quince
+msgid "General color for all body content."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1149
+#@ quince
+msgid "Headings (H1, H2, H3, H4, H5, H6)"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1150
+#@ quince
+msgid "Color for heading tags. Applies for all heading elements, if different color is not specified in element styling."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1164
+#: inc/theme-options-extend/theme-options.php:1224
+#: inc/theme-options-extend/theme-options.php:1606
+#: inc/theme-options-extend/theme-options.php:1696
+#@ quince
+msgid "Link color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1165
+#@ quince
+msgid "Global link color."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1180
+#@ quince
+msgid "Global link hover color. <br /> To use \"Theme accent color\" leave empty."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1194
+#@ quince
+msgid "Sidebar"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1209
+#: inc/theme-options-extend/theme-options.php:1591
+#: inc/theme-options-extend/theme-options.php:1681
+#@ quince
+msgid "Text color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1210
+#@ quince
+msgid "Choose text color for sidebar widget content."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1225
+#@ quince
+msgid "Choose color for links in sidebar."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1254
+#: inc/theme-options-extend/theme-options.php:1636
+#: inc/theme-options-extend/theme-options.php:1726
+#@ quince
+msgid "Widget title color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1255
+#@ quince
+msgid "Color for widget titles in sidebar."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1269
+#@ quince
+msgid "Widget divider color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1270
+#@ quince
+msgid "Choose border line color separating list items in sidebar."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1284
+#@ quince
+msgid "Misc"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1299
+#@ quince
+msgid "Post meta text color"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1300
+#@ quince
+msgid "Set color for post meta fields (tags, date, category, author, comments count) on blog index and single post pages."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1314
+#@ quince
+msgid "Custom fonts"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1329
+#@ quince
+msgid "Body font"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1344
+#@ quince
+msgid "Menu font"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1359
+#@ quince
+msgid "Default heading font"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1374
+#@ quince
+msgid "Visual Composer heading element font"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1389
+#@ quince
+msgid "Widget title font"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1404
+#@ quince
+msgid "Font sizes"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1419
+#@ quince
+msgid "Body"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1420
+#@ quince
+msgid "General body font size. <br /> Remember to add <code>px</code> value after the number. For example: <code>13px</code>"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1434
+#@ quince
+msgid "H1"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1435
+#@ quince
+msgid "Heading 1 tag font size. <br /> Remember to add <code>px</code> value after the number."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1449
+#@ quince
+msgid "H2"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1450
+#@ quince
+msgid "Heading 2 tag font size. <br />Remember to add <code>px</code> value after the number."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1464
+#@ quince
+msgid "H3"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1465
+#@ quince
+msgid "Heading 3 tag font size. <br />Remember to add <code>px</code> value after the number."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1479
+#@ quince
+msgid "H4"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1480
+#@ quince
+msgid "Heading 4 tag font size. <br />Remember to add <code>px</code> value after the number."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1494
+#@ quince
+msgid "H5"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1495
+#@ quince
+msgid "Heading 5 tag font size. <br />Remember to add <code>px</code> value after the number."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1509
+#@ quince
+msgid "H6"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1510
+#@ quince
+msgid "Heading 6 tag font size. <br />Remember to add <code>px</code> value after the number."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1539
+#@ quince
+msgid "Column count"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1540
+#@ quince
+msgid "Choose column count for your footer."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1554
+#@ quince
+msgid "1"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1559
+#@ quince
+msgid "2"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1564
+#@ quince
+msgid "3"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1569
+#@ quince
+msgid "4"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1592
+#@ quince
+msgid "Choose text color for your footer widget content."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1607
+#@ quince
+msgid "Will apply color to all links located in footer widgets."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1637
+#@ quince
+msgid "Color for widget titles in footer."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1651
+#@ quince
+msgid "Copyright"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1682
+#@ quince
+msgid "Choose text color for your copyright area widget content."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1697
+#@ quince
+msgid "Color for links located in your copyright area widgets."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1727
+#@ quince
+msgid "Color for widget titles in copyright area."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1741
+#@ quince
+msgid "Blog"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1756
+#@ quince
+msgid "Blog layout"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1757
+#: inc/theme-options-extend/theme-options.php:1953
+#: inc/theme-options-extend/theme-options.php:2062
+#: inc/theme-options-extend/theme-options.php:2109
+#@ quince
+msgid ""
+"1. Full width content<br />\n"
+"2. Content / Right sidebar <br />\n"
+"3. Content / Left sidebar"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1773
+#@ quince
+msgid "Blog post text align"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1774
+#@ quince
+msgid "Choose text align for the blog post."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1788
+#: inc/theme-options-extend/theme-options.php:1984
+#@ quince
+msgid "Left"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1793
+#: inc/theme-options-extend/theme-options.php:1989
+#@ quince
+msgid "Center"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1798
+#: inc/theme-options-extend/theme-options.php:1994
+#@ quince
+msgid "Right"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1805
+#@ quince
+msgid "Blog title"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1806
+#@ quince
+msgid "Choose whether to display or hide blog title."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1820
+#@ quince
+msgid "Custom HTML after header in blog page"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1821
+#@ quince
+msgid "Insert any custom code you wish. Shortcodes allowed!"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1835
+#@ quince
+msgid "Content type for post preview"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1836
+#@ quince
+msgid "Choose what to display on blog index pages. Note that only 'Full Content' respects WordPress 'read more' tag."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1850
+#@ quince
+msgid "Excerpt"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1855
+#@ quince
+msgid "Full content"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1862
+#@ quince
+msgid "Exclude category from blog"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1863
+#@ quince
+msgid "This option will exclude selected category posts from blog and search pages."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1877
+#@ quince
+msgid "Post date in meta"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1878
+#@ quince
+msgid "Do you want to display date in post meta fields?"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1892
+#@ quince
+msgid "Post category in meta"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1893
+#@ quince
+msgid "Do you want to display category in post meta fields?"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1907
+#@ quince
+msgid "Post author in meta"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1908
+#@ quince
+msgid "Do you want to display author in post meta fields?"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1922
+#@ quince
+msgid "Comments link in meta"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1923
+#@ quince
+msgid "Do you want to display comment count in post meta fields?"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1937
+#@ quince
+msgid "Posts"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1952
+#@ quince
+msgid "Post layout"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1969
+#@ quince
+msgid "Post text align"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:1970
+#@ quince
+msgid "Choose text align for single post."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2001
+#@ quince
+msgid "Previous &amp; next post link"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2002
+#@ quince
+msgid "Do you want to display next and previous post links on single blog post page?"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2016
+#@ quince
+msgid "Post tags after content"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2017
+#@ quince
+msgid "Display post tags on single post page?"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2031
+#@ quince
+msgid "Post author description"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2032
+#@ quince
+msgid "When ON, author info box will only appear for those post authors who have \"Biographical Info\" field filled!"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2046
+#@ quince
+msgid "Display cart content on hover"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2047
+#@ quince
+msgid "Display cart content on icon hover (ON) or just lead to cart page on click (OFF)?"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2061
+#@ quince
+msgid "Product archive page (shop) layout"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2078
+#@ quince
+msgid "WooCommerce product page title"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2093
+#@ quince
+msgid "Custom HTML after header in WooCommerce product page"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2108
+#@ quince
+msgid "Single product page layout"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2125
+#@ quince
+msgid "Product column count"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2126
+#@ quince
+msgid "Choose column count for main product catalog page."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2140
+#@ quince
+msgid "3 columns"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2145
+#@ quince
+msgid "4 columns"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2152
+#@ quince
+msgid "Products per page"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2153
+#@ quince
+msgid "Choose how many products to display on product catalog page."
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2168
+#@ quince
+msgid ""
+"Add any of your custom CSS here: <br /> \n"
+"\n"
+"<pre><code>.page-id-10 #site-header {\n"
+"background:none;\n"
+"}\n"
+"</code></pre>\n"
+"\n"
+"Have fun!"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2189
+#@ quince
+msgid "Import demo"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2190
+#@ quince
+msgid ""
+"<h1>Welcome to Quince!</h1>\n"
+"<span class=\"import_note\">You can replicate live preview website by importing demo data.<br /> Posts, pages, widgets, menus and reading settings will be set automatically. <br />You can change and edit everything later.</span>\n"
+"\n"
+"<a href=\"themes.php?page=ot-theme-options&amp;import_data_content=true\">Import demo data</a>\n"
+"\n"
+"<span class=\"import_note import_warning\"><strong>NOTICE: </strong>Images and graphics used in live demo are licensed for preview purposes only and are replaced with placeholder images in this demo content.</span>"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2209
+#@ quince
+msgid "Import successful"
+msgstr ""
+
+#: inc/theme-options-extend/theme-options.php:2210
+#@ quince
+msgid ""
+"<div class=\"success-icon\"></div>\n"
+"<h1>Data Imported Successfully!</h1>"
+msgstr ""
+
+#: inc/theme-setup.php:14
+#@ quince
+msgid "Main Navigation"
+msgstr ""
+
+#: inc/theme-setup.php:69
+#, php-format
+#@ quince
+msgid "Page %s"
+msgstr ""
+
+#: index.php:19
+#: index.php:39
+#: search.php:20
+#: search.php:41
+#@ quince
+msgid "Newer posts"
+msgstr ""
+
+#: index.php:19
+#: index.php:39
+#: search.php:20
+#: search.php:41
+#@ quince
+msgid "Older posts"
+msgstr ""
+
+#: searchform.php:8
+#@ quince
+msgid "TYPE AND HIT ENTER ..."
+msgstr ""
+
+#: sidebar-blog.php:13
+#: sidebar.php:14
+#: title.php:111
+#@ quince
+msgid "Archives"
+msgstr ""
+
+#: sidebar-blog.php:20
+#: sidebar.php:21
+#@ quince
+msgid "Meta"
+msgstr ""
+
+#: title.php:93
+#, php-format
+#@ quince
+msgid "Search Results for: %s"
+msgstr ""
+

@@ -1,0 +1,1703 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+	<title>Essential Grid - for WordPress</title>
+ 	<meta name="description" content="'Essential Grid' is an all-purpose grid building solution for WordPress that allows you do display different kinds of content in a highly customizable grid.  Possible applications range from portfolios, blogs, galleries, services, product sliders, testimonials and anything else you can imagine.  With it's various supported media types like images, youtube & vimeo videos, html5 selfhosted videos and even iframe content, 'Essential Grid' will breathe life into your WordPress site!">
+	<meta name="author" content="ThemePunch">
+	<meta name="copyright" content="ThemePunch">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-04-13T00:00:00+02:00">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/documenter_style.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+    </head>
+    
+<body class="documenter-project-essential-grid" data-spy="scroll" id="top">
+
+<!-- Documentation Navbar -->
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container"> 
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+			<a class="brand" href="#">Essential Grid - for WordPress</a>
+			<div class="nav-collapse">
+			<ul class="nav">
+					
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#purchase_code_registration" title="Purchase Code Registration">Purchase Code Registration</a></li>
+            <li><a href="#import_demos" title="Import Demos">Import Demo Grids</a></li>
+			<li><a href="#creating_your_first_grid" title="Creating a Grid">Creating a Grid</a></li>
+			<li><a href="#media_source" title="Media Source">Media Source</a></li>
+            <li><a href="#grid_item_options" title="Grid Item Options">Grid Item Options</a></li>
+			<li><a href="#general_grid_settings" title="General Grid Settings">General Grid Settings</a></li>
+			<li><a href="#navigation_settings" title="Navigation Settings">Navigation Settings</a></li>
+			<li><a href="#skin_settings" title="Skin Settings">Skin Settings</a></li>
+			<li><a href="#main_animations" title="Main Animations">Main Animations</a></li>
+			<li><a href="#lightbox_settings" title="Lightbox Settings">Lightbox Settings</a></li>
+			<li><a href="#video_spinner" title="Video / Spinner">Video / Spinner</a></li>
+			<li><a href="#item_skin_editor" title="Item Skin Editor">Item Skin Editor</a></li>
+			<li><a href="#plugin_global_settings" title="Plugin Global Settings">Plugin Global Settings</a></li>
+            <li><a href="#custom_meta_data" title="Custom Meta Data">Custom Meta Data</a></li>
+			<li><a href="#adding_a_grid_to_your_site" title="Adding a Grid to your Site">Adding a Grid to your Site</a></li>
+			<li><a href="#google_fonts" title="Google Fonts">Google Fonts</a></li>
+            <li><a href="#import_export" title="Import/Export">Import / Export</a></li>
+            <li><a href="#troubleshooting" title="Troubleshooting">Troubleshooting</a></li>
+
+			</ul>
+			</div>
+		</div>
+	</div>
+</div> <!-- End of Navbar -->
+
+<!-- Main Container Beginning -->			
+			
+<div class="container" id="documenter_content">
+    
+	<div id="documenter-cover" style="margin-bottom:400px !important">
+	<div class="masthead">
+	    <h3>Welcome to ThemePunch’s latest product "Essential Grid"</h3>
+"Essential Grid" is an all-purpose grid building solution for WordPress that allows you to display different kinds of content in a highly customizable grid.
+Possible applications range from portfolios, blogs, galleries, services, product sliders, testimonials and anything else you can imagine.
+With it's various supported media types like images, youtube & vimeo videos, html5 self- hosted videos and even iframe content, "Essential Grid" will breathe life into your WordPress site!
+	    <ul class="marketing-byline">
+			<li>created: 04/13/2014</li>
+			<li>latest update: 04/13/2014</li>
+			<li>by: ThemePunch</li>
+			<!--<li><a href="http://www.themepunch.com/">www.themepunch.com</a></li>-->
+		</ul>
+	    <p class="download-info">
+			<a href="http://www.themepunch.com/home/category/plugins/wordpress-plugins/essential-grid-responsive-wordpress-plugin/" class="btn btn-large">FAQ's</a> <a href="http://themepunch.com/essential/videoguides/" class="btn btn-large">Videos</a> <a href="http://themepunch.ticksy.com/" class="btn btn-primary btn-large">Support</a> 
+		</p>
+		
+	</div> <!-- masthead -->
+	
+  <!-- <div id="intro">
+    <p class="highlight hero-unit">Thank you for downloading Essential Grid by ThemePunch.  This document will assist you with installing the plugin and setting up your first Essential Grid.
+
+</p>
+   </div> -->
+   <!-- intro -->
+   	
+    <div id="shortcuts">
+    <h3>Quick Links</h3>
+    <ul>
+    <li><a href="#adding_a_grid_to_your_site">Shortcode</a></li>
+    <li><a href="#grid_layout">Grid Layout</a></li>
+    <li><a href="#grid_columns">Grid Columns</a></li>
+    <li><a href="#even_grid">Even Grid</a></li>
+    <li><a href="#masonry">Masonry Grid</a></li>
+    <li><a href="#cobbles">Cobbles Grid</a></li>
+    <li><a href="#bulk_upload">Custom Grid: Bulk Upload</a></li>
+    <li><a href="#pagination_load_more">Pagination / Load More</a></li>
+    <li><a href="#spacing_padding">Spacings / Paddings</a></li>
+    <li><a href="#item_skin_editor">Edit Grid Content</a></li>
+    <li><a href="#item_skin_editor_cover_gt_cover_type">Grid Item Hovers</a></li>
+    <li><a href="#item_layout">Changing an Icon</a></li>
+    <li><a href="#lightbox_settings_lightbox_layout">Lightbox Social Buttons</a></li>
+    <li><a href="#item_skin_editor_layer_settings_gt_link_seo">Setting Hyperlinks</a></li>
+    <li><a href="#grid_item_options">Video / Soundcloud</a></li>
+    <li><a href="#troubleshooting">Front-end not working</a></li>
+    </ul>
+    </div>
+    
+	</div>
+      
+  <section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+<p>
+	If you&#39;re reading this, it means you&#39;ve successfully unzipped the download zip from CodeCanyon.&nbsp; At the root folder of this zip, you&#39;ll find several other folders and files.&nbsp; The zip that can be installed will be located here, and is named <span class="cj-highlight">essential-grid.zip</span>.&nbsp; Once you&#39;ve located this zip file, you&#39;re ready to upload it to your WordPress plugins page and install the plugin.</p>
+<p>
+	First, visit the <span class="cj-highlight">Plugins</span> page from your WordPress main menu, and select the <span class="cj-highlight">Add New</span> button shown in the screenshot below:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_41.jpg" width="872" height="467"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Next, choose the <span class="cj-highlight">Upload</span> button:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_42.jpg" width="761" height="444"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Then select <span class="cj-highlight">Browse</span>, and choose the <span class="cj-highlight">essential-grid.zip</span> file from your computer.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_43.jpg" width="673" height="432"></span></p>
+<p>
+	<br>
+	Next, click the <span class="cj-highlight">Install Now</span> button:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_44.jpg" width="663" height="432"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Finally, choose the <span class="cj-highlight">Activate Plugin</span> link:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_45.jpg" width="789" height="444"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Now that the plugin has been installed, you&#39;ll see it listed in your WordPress <span class="cj-highlight">Plugins</span> page, and you&#39;ll also see a new menu item in the WordPress main menu titled <span class="cj-highlight">Ess. Grid</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_46.jpg" width="933" height="469"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	And that&#39;s it!&nbsp; You&#39;ve successfully installed Essential Grid, and are ready to start building your first grid :)</p>
+</section>
+<section id="purchase_code_registration">
+	<div class="page-header"><h3>Purchase Code Registration</h3><hr class="notop"></div>
+<p>
+	<strong>SPECIAL NOTE: Purchase Code Registration is only available if you purchased the plugin directly from CodeCanyon.&nbsp; If the plugin came packaged with your theme, you can acquire a valid <span class="cj-highlight">Purchase Code</span> by purchasing a copy of the plugin separately from CodeCanyon (see <span class="cj-highlight">Need Premium Support and Auto Updates</span> below).</strong></p>
+<p>&nbsp;
+	</p>
+<p>
+	Once you&#39;ve installed the plugin, click the <span class="cj-highlight">Ess. Grid</span> shown in the WordPress main menu, and you&#39;ll be brought to the plugin&#39;s main admin page.&nbsp; Toward the middle of the page, you&#39;ll see the following:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_2.jpg" width="898" height="223"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Scroll down to the following section, and let&#39;s <span class="cj-highlight">register</span> the plugin.&nbsp; But first, let&#39;s check out the benefits of registration:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_5.jpg" width="849" height="331"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Next, let&#39;s take a quick look at the three fields needed for activation/registration:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_6.jpg" width="786" height="443"></span></p>
+<p>&nbsp;
+	</p>
+<h3>
+	Username:</h3>
+<p>
+	This is your CodeCanyon username.&nbsp; It should be the same thing you type in to login to your CodeCanyon account:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_7.jpg" width="992" height="446"></span></p>
+<p>&nbsp;
+	</p>
+<h3>
+	Envato API Key:</h3>
+<p>
+	This is a special "key" that you can generate from your CodeCanyon account page.&nbsp; To get your API key, login to CodeCanyon and then click this link:</p>
+<p>
+	<a href="http://codecanyon.net/downloads">http://codecanyon.net/downloads</a></p>
+<p>
+	From there, choose the <span class="cj-highlight">My Settings</span> tab:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_8.jpg" width="676" height="385"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	and then choose the <span class="cj-highlight">API Keys</span> option at the bottom of the tab menu:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_9.jpg" width="381" height="484"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Next, to generate an API key, give it a label (anything will do), and click the <span class="cj-highlight">Generate API Key</span> button:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_10.jpg" width="707" height="330"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Finally, you&#39;ll see your newly generated API key.&nbsp; Paste this into the <span class="cj-highlight">Envato API Key</span> section of the Essential Grid <span class="cj-highlight">activation</span> form:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_11.jpg" width="657" height="308"></span></p>
+<h3>
+	<br>
+	Purchase Code:</h3>
+<p>
+	To get your purchase code, head over to the following page:</p>
+<p>
+	<a href="http://codecanyon.net/downloads">http://codecanyon.net/downloads</a></p>
+<p>
+	Choose the <span class="cj-highlight">Download</span> button, and then choose <span class="cj-highlight">License certificate &amp; purchase code</span> from the drop-down menu that appears:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_12.jpg" width="781" height="254"></span><br>
+	&nbsp;</p>
+<p>
+	Next, you&#39;ll be prompted to open/download a text file.&nbsp; Inside this file is where you&#39;ll find your purchase code.&nbsp; Paste this into the <span class="cj-highlight">Purchase Key</span> section of the Essential Grid <span class="cj-highlight">activation</span> form:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_3.jpg" width="886" height="598"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Now that you&#39;ve gathered your <span class="cj-highlight">Username</span>, <span class="cj-highlight">Envato API Key</span>, and <span class="cj-highlight">Purchase Code</span>, enter it into the form and click the green <span class="cj-highlight">Activate</span> button.&nbsp; When <span class="cj-highlight">activation</span> is successful, the section will change from red to green:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_4.jpg" width="786" height="518"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	And that&#39;s it!&nbsp; You&#39;ve now successfully <span class="cj-highlight">activated</span> the plugin and can now benefit from update notifications as well as premium support :)</p>
+</section>
+
+<section id="import_demos">
+	<div class="page-header"><h3>Importing Demo Grids</h3><hr class="notop"></div>
+<p>Sometimes the easiest way to learn is to start with an example that's already built and then modify it.  To do that, we can import the demo examples shown in the CodeCanyon Preview.  To get started, from the WordPress main menu, click the <span class="cj-highlight">Import/Export</span> option:</p>
+<p><span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_193.jpg" width="173" height="338"></span></p>
+<p><br />Then click the <span class="cj-highlight">Import Full Demo Data</span> button:</p>
+<p><span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_194.jpg" width="375" height="213"></span></p>
+<p><br />You'll then see a popup message asking you to confirm</p>
+<p><span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_195.jpg" width="897" height="167"></span></p>
+<p><br />Once the process is complete, from the main WordPress menu, click <span class="cj-highlight">Ess. Grid</span> and you'll then see the imported examples (32 total).</p>
+<p><span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_196.jpg" width="784" height="411"></span></p>
+<p><br />If you haven't already decided which example you'd like to start with, visit the demo site, and view the different examples from <span class="cj-highlight">Usage Examples</span> drop down menu item:</p>
+<p><span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_197.jpg" width="864" height="393"></span></p>
+<p><br />Once you've decided which examples you want to use, you can delete the examples you don't plan to use by clicking the red trash can icon button.</p>
+<p><br />The content used for the examples will be imported to the <span class="cj-highlight">Ess. Grids Custom Post Type</span> 
+<p><span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_198.jpg" width="635" height="390"></span></p>
+
+
+</section>
+
+<section id="creating_your_first_grid">
+	<div class="page-header"><h3>Creating your first Grid</h3><hr class="notop"></div>
+<p>
+	To create your first Essential Grid, head over to the plugin&#39;s main admin page (WP Main Menu -&gt; Ess. Grid).&nbsp; Then click the blue button titled <span class="cj-highlight">Create New Ess. Grid</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_17.jpg" width="795" height="334"></span></p>
+<p>&nbsp;
+	</p>
+<h2>
+	Naming</h2>
+<p>
+	Next, give your new grid a <span class="cj-highlight">Title</span> and an <span class="cj-highlight">Alias</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_28.jpg" width="645" height="354"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	The <span class="cj-highlight">Title</span> can be anything you choose to help you organize your grids (if you choose to create more than one).&nbsp;</p>
+<p>
+	The <span class="cj-highlight">Alias</span> is the keyword that will be used in the grid&#39;s <span class="cj-highlight">shortcode</span>.&nbsp; A general rule for <span class="cj-highlight">Alias</span> names is to avoid using special characters, and to keep things nice and organized, it&#39;s also helpful to avoid using uppercase letters and spaces between letters.</p>
+<p>&nbsp;
+	</p>
+<h2 id="grid_source">
+	Source</h2>
+<p>
+	Next, click the <span class="cj-highlight">Source Tab</span>, and choose either <span class="cj-highlight">Post, Pages, Custom Posts</span>, or <span class="cj-highlight">Custom Grid</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_35.jpg" width="740" height="195"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Choose <span class="cj-highlight">Post, Pages, Custom Posts</span> if you want your Grid&#39;s content to be pulled from one of those sources.&nbsp; Choose <span class="cj-highlight">Custom Grid</span> if you wish to build a custom grid from scratch that isn&#39;t based on your site&#39;s pages or posts.</p>
+    <p><br /><br />
+	<strong>If you&#39;ve chosen "Post, Pages, Custom Posts"</strong>, select a <span class="cj-highlight">Post Type</span> from the list:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_36.jpg" width="660" height="324"></span></p>
+<p>&nbsp;
+	</p>   
+<p>
+	<br /><strong>If you&#39;ve chosen <span class="cj-highlight">Post</span></strong>, select a post category:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_37.jpg" width="656" height="554"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	If you wish to include more than one category, hold down the <span class="cj-highlight">Ctrl</span> key to select an additional category:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_34.jpg" width="602" height="454"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>If you&#39;ve chosen <span class="cj-highlight">Page</span> for your <span class="cj-highlight">Post Types</span> option</strong>, select the <span class="cj-highlight">+</span> icon in the <span class="cj-highlight">Select Pages</span> section:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_38.jpg" width="661" height="612"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Next you&#39;ll see a popup modal that where you can select the pages you wish to include in the grid:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_39.jpg" width="685" height="421"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	And then you&#39;ll see your chosen pages listed.&nbsp; <em>If you decide you want to delete a page from the list, click the <span class="cj-highlight">trash can</span> icon next to the listed page.</em></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_40.jpg" width="657" height="301"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>If you&#39;ve chosen <span class="cj-highlight">Ess. Grids</span> for your <span class="cj-highlight">Source Option</span></strong>, this is a Custom Post Type that&#39;s automatically created when you install and activate the Essential Grid plugin.&nbsp;</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_19.jpg" width="760" height="553"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	This Custom Post Type will represent the posts from the <span class="cj-highlight">Ess. Grids</span> menu item in your WordPress main menu.&nbsp; <em>We&#39;ll cover creating custom posts a bit later when we start to setup our grid items. </em></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_20.jpg" width="686" height="477"></span></p>
+<p>&nbsp;
+	</p>
+    
+<p id="bulk_upload">
+	<strong>If you&#39;ve chosen <span class="cj-highlight">Custom Grid</span></strong> for your "Source" option:</p>
+    <p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/images_183.jpg" width="701" height="192" /></span></p>
+    
+    <p><br />.. at the bottom of the page, you're preview will look like this:</p>
+    <p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/images_180.jpg" width="446" height="402"></span></p>
+    <p><br />Hover your mouse over the item, and then start hovering your mouse over the icons that appear.  Each icon represents a type of item you can add.  The options are:</p>
+    <ul>
+    <li>Image</li>
+    <li>YouTube</li>
+    <li>Vimeo</li>
+    <li>HTML5 Video</li>
+    <li>SoundCloud</li>
+    <li>No Media</li>
+    </ul>
+    <p><span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/images_181.jpg" width="453" height="412"></span></p>
+    <p><br />Click any of the icon options, and you'll see a custom popup for each media type.  If you click the <span class="cj-highlight">Image</span> icon, you'll have the option to create multiple Grid Items automatically by choosing the <span class="cj-highlight">Bulk</span> option:</p>
+    
+    <p><span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_212.jpg" width="325" height="223"></span></p>
+    
+    <p><br />If you've chosen the "Bulk"  option, you'll have the opportunity to select multiple images.  Then afterward, new Custom Grid Items will be created automatically for each image you've chosen:</p>
+    <p><span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_213.jpg" width="422" height="282"></span></p>
+    
+    <p><br />If you've chosen <span class="cj-highlight">Single</span>, here's an example of what the <span class="cj-highlight">Image</span> popup looks like:</p>
+    <p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/images_182.jpg" width="670" height="616"></span></p>
+    <p><br />A custom Grid item essentially mimics the content you'd be able to add if you're Grid were based on regular WP posts.  Add all the custom data you wish to add, and then click the <span class="cj-highlight">Add Element</span> button to officially add the item to your Custom Grid.</p>
+    <p><br />Once your Grid Item is added, it will show up in the preview with it's own toolbar for further editing:</p>
+    <p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/images_184.jpg" width="871" height="395"></span></p> 
+    
+<p>
+	Once you&#39;re finished choosing your <span class="cj-highlight">Source Option</span>, click the green button titled <span class="cj-highlight">Save Grid</span>, and now you&#39;ve officially created your first Essential Grid :)</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_18.jpg" width="883" height="237"></span></p>
+</section>
+<section id="media_source">
+	<div class="page-header"><h3>Media Source</h3><hr class="notop"></div>
+<p>
+	The <span class="cj-highlight">Media Source</span> is found inside the <span class="cj-highlight">Source</span> section of your first grid:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_125.jpg" width="668" height="937"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	As you can see, there are several options you can choose from.&nbsp; We&#39;ll be working with the <span class="cj-highlight">Featured Image</span> for now.&nbsp; We&#39;ll cover this as well as the other media source options in more detail in the <a href="#grid_item_options">Essential Grid Items</a> section of the documentation.</p>
+<p>&nbsp;
+	</p>
+<h3>
+	Set Image Source Type</h3>
+<p>
+	Whenever you upload an image to your WordPress site, WordPress automatically creates multiple versions of the image, based on the values in your WordPress <span class="cj-highlight">Media Settings</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_126.jpg" width="859" height="647"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Depending on your Grid, it may be more efficient to load in the "Medium" or "Thumbnail" version for your Grid items as opposed to the image&#39;s "Original" or "Large" version.&nbsp; Nevertheless, there are four options you can choose for your <span class="cj-highlight">Image Source Type</span>, and they&#39;ll apply to both the <span class="cj-highlight">Featured Image</span> and the <span class="cj-highlight">First Content Image</span> options shown in the following screenshot:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_127.jpg" width="662" height="454"></span></p>
+</section>
+
+<section id="grid_item_options">
+	<div class="page-header"><h3>Grid Item Options</h3><hr class="notop"></div>
+<p>Once you create or import a Grid, you can start populating the content for each individual <span class="cj-highlight">Grid Item</span>.  Grid's can be based multiple source types.  <a href="#grid_source">Click here</a> to review how you can set the <span class="cj-highlight">Source Type</span> for your Grid.  The four options are:</p>
+<ol>
+<li>Posts</li>
+<li>Pages</li>
+<li>"Ess. Grids" Custom Post Type</li>
+<li>Custom Grid Items</li>
+</ol>
+<p><br />Let's start with options 1-3 above.  Inside the post/page for each of these options, below the WYSIWYG editor, you'll see some custom options for Essential Grid.  This is where you can set any <a href="#custom_meta_data">Custom Meta Data</a> you've created for your Grid.</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_214.jpg" width="640" height="610" alt="" /></span></p>
+<p><br /><br />After the Custom Meta Data section is the <span class="cj-highlight">Alternative Sources</span> section.  Alternative Sources are for when you want to include custom media for your Grid Item's <a href="#media_source">Media Source</a>.  The "Media Source" is chosen from your Grid's main settings page.  The screenshot below shows the <a href="#media_source">media source types</a> that apply to the "Alternative Sources" section:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_225.jpg" width="743" height="448" alt="" /></span></p>
+<p><br /><br /><strong>If "HTML5 Video" is selected</strong> as our Grid's main Media Source, the "Alternative Sources" section is where the video's url can be entered:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_216.jpg" width="937" height="153" alt="" /></span></p>
+<p><br />Enter the full url of your videos into these fields.  An <span class="cj-highlight">MP4</span> version is required and will be used for most browsers.  <span class="cj-highlight">OGV</span> and <span class="cj-highlight">WEBM</span> are alternative videos that will be used when "mp4" is not supported, such as for <a href="https://developer.mozilla.org/en-US/docs/HTML/Supported_media_formats" target="_blank">Firefox on Macs</a>.  The following link is to a free video converter which is great for creating "ogv" and "webm" versions of your videos.</p>
+<p><a href="http://www.mirovideoconverter.com/" target="_blank">http://www.mirovideoconverter.com/</a></p>
+<p><br />If you've created "ogv" and "webm" versions of your video, and it's still not working in Firefox, it's possible your server doesn't support the "ogv" and "webm" file-types.  But this can be fixed by <a href="http://voice.firefallpro.com/2012/03/html5-audio-video-mime-types.html" target="_blank">updating your site's ".htaccess" file</a>.</p>
+<p><br /><strong>The next Alternative Source Types are YouTube and Vimeo:</strong></p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_217.jpg" width="497" height="300" alt="" /></span></p>
+<p><br />Here, you can enter the video's <span class="cj-highlight">ID</span> into either field.  To get your YouTube or Vimeo's video ID, visit the video on Youtube.com or Vimeo.com, and the video's ID will be part of the url shown in the browser's address bar:</p>
+<h5>YouTube ID</h5>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_218.jpg" width="646" height="169" alt="" /></span></p>
+<h5>Vimeo ID</h5>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_219.jpg" width="567" height="156" alt="" /></span></p>
+
+<p><br /><br /><strong>The next Alternative Source Type is <span class="cj-highlight">SoundCloud</span></strong></p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_220.jpg" width="565" height="97" alt="" /></span></p>
+<p><br />To get your SoundCloud song's "track" ID, visit the song on SoundCloud, and click the "Share" button:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_221.jpg" width="503" height="288" alt="" /></span></p>
+<p><br />Then click the "Embed" tab, and copy the embed code to your computer's clipboard:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_222.jpg" width="576" height="342" alt="" /></span></p>
+<p><br />Next, open your favorite text editor, and paste the iframe code into it.  Then copy the url's "ID", which will be right after the "tracks/" part of the url:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_223.jpg" width="612" height="189" alt="" /></span></p>
+
+<p><br /><br /><strong>The next "Alternative Source" option is the "Alt Image".</strong>  This is a good option for when you don't want to use an image from the actual post, such as the post's "Featured Image" or the post's "First Content Image":</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_226.jpg" width="449" height="328" alt="" /></span></p>
+<p><br /><br /><strong>The last Alternative Source option is for including an iframe</strong>.  Paste your iframe's code into this field if you wish to load an iframe as your media source.  Here's an example:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_227.jpg" width="942" height="128" alt="" /></span></p>
+
+<p><br /><br />The last part of the custom options is the <span class="cj-highlight">Custom Post Based Skin Modifications</span> section.  Here you can create custom skin rules that will apply specifically to the Grid Item itself.  To create a Custom Skin Rule, click the <span class="cj-highlight">Add New Custom Skin Rule</span> button, and then select the skin you're using from the first dropdown <strong>(1)</strong>.  Then select the layer you wish to modify from the second drop-down <strong>(2)</strong>, and then choose the style you wish to change from the third dropdown <strong>(3)</strong>.</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_228.jpg" width="786" height="271" alt="" /></span></p>
+<br /><br />
+<hr>
+Lastly, if you're using a <span class="cj-highlight">Custom Grid</span> for your Grid's "Source Type", your Grid Items won't be based on pages or posts, and instead will be <a href="#bulk_upload">created manually inside the Grid's settings</a>.  Alternative Media sources are not needed for Custom Grid Items, as the media source will be directly chosen when creating your <a href="#bulk_upload">Custom Grid Items</a>.
+
+</section>
+
+
+<section id="general_grid_settings">
+	<div class="page-header"><h3>General Grid Settings</h3><hr class="notop"></div>
+<p>
+	Now that we&#39;ve created a new <span class="cj-highlight">Essential Grid</span>, we&#39;re ready to get started adjusting the look of the grid.&nbsp; For this example, I&#39;ve chosen <span class="cj-highlight">Posts</span> as the <span class="cj-highlight">Source Type</span>, and have created 8 posts, all with a <span class="cj-highlight">Featured Image</span> and some dummy text.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_145.jpg" width="682" height="679"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Of course, these posts can be titled anything.&nbsp; Here&#39;s what each one looks like for now:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_146.jpg" width="840" height="734"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Later on, we&#39;ll discuss customizing the content for a grid item based on a post.&nbsp; But for now, to start customizing the grid itself, all we need are some posts that all have a <span class="cj-highlight">Featured Image</span> and some dummy text as shown in the screenshot above.</p>
+<p>
+	If you&#39;ve been clicking around the Grid&#39;s admin, you&#39;ve probably noticed that most of the options have tooltips.&nbsp; These tooltips will help you navigate through the large array of settings Essential Grid has to offer.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_147.jpg" width="848" height="399"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	And if you scroll down to the bottom of the <span class="cj-highlight">Grid Settings</span> page, you should now see a preview of your first Essential Grid:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_148.jpg" width="852" height="632"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	<em><strong>Note: </strong>You&#39;ll notice that each Grid item has its own toolbar.&nbsp; These options will be covered in detail in the <a href="#grid_item_options">Grid Item Options</a> section.</em></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_151.jpg" width="852" height="225"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Now we can start adjusting the settings on the page, and after each adjustment, clicking the blue <span class="cj-highlight">Refresh Preview</span> button will then reflect the settings change in the preview:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_149.jpg" width="852" height="603"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	<em><strong>Note:</strong> It&#39;s always good practice to frequently save your Grid throughout the customization process:</em></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_152.jpg" width="679" height="217"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Some settings, such as <span class="cj-highlight">Smart Loading -&gt; Lazy Load</span>, are best previewed when the Grid is live on a page.&nbsp; But because we&#39;re still setting up our grid, create an unpublished "test" page for your live preview.&nbsp; Skip over to the <a href="#adding_a_grid_to_your_site">Adding the Grid to a Web Page</a> section if you want to quicky do that, and then come back here to continue learning about the different Essential Grid Settings :)</p>
+<p>
+	Ok, got your previews setup?&nbsp; Great!&nbsp; Let&#39;s discuss the different <span class="cj-highlight">Grid Settings</span> and what they do.</p>
+<h2>&nbsp;
+	</h2>
+<h3 id="grid_layout">
+	LAYOUT</h3>
+<h4>
+	Layout -&gt; Boxed</h4>
+<p>
+	Choose this setting if you want the Grid to always fit inside your site.&nbsp; This option is usually best for most sites, and since Essential Grid is <span class="cj-highlight">responsive</span> by default, if your site happens to be <span class="cj-highlight">reponsive</span>, the grid will always resize along with your site.</p>
+<h4>
+	Layout -&gt; Fullwidth</h4>
+<p>
+	Choose this setting if you want the Grid to span across the entire screen&#39;s width, no matter what the screen size.&nbsp; <em>Keep in mind that even though your site&#39;s template may be inside a <span class="cj-highlight">boxed</span> container, this option will essentially force the grid to <span class="cj-highlight">break out</span> of the template&#39;s boxed container.</em></p>
+<h4>
+	Layout -&gt; Fullscreen</h4>
+<p>
+	Choose this option if you want the Grid to consume the entire screen when the page first loads.&nbsp; When the Grid is displayed this way, any content placed below it will automatically be pushed off the screen, forcing the user to scroll the page to view the rest of your page&#39;s content.&nbsp;</p>
+<p>
+	When this option is chosen, you&#39;ll see a new option appear directly underneath that&#39;s titled <span class="cj-highlight">Offset Container</span>.&nbsp; Because the Grid is going to consume the entire screen, you may want to account for other elements on the page that will also be visible, such as your theme&#39;s <span class="cj-highlight">header</span> , <span class="cj-highlight">nav</span> or <span class="cj-highlight">footer</span>.&nbsp; If so, enter these elements into the <span class="cj-highlight">Offset Container</span> field:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_150.jpg" width="756" height="185"></span></p>
+<p>
+	<br>
+	The <span class="cj-highlight">Offset Container</span> should be anything that can be used as a <span class="cj-highlight">jQuery selector</span>.&nbsp; For example, if you want the Grid to account for your site&#39;s navigation menu, the <span class="cj-highlight">Offset Container</span> could be the navigation element&#39;s tag name (if unique such as <span class="cj-highlight">nav</span>), or it could be the navigation element&#39;s <span class="cj-highlight">ID</span>, or its <span class="cj-highlight">class</span> name.&nbsp; Here are some examples:</p>
+<ul>
+	<li>
+		<strong>nav</strong> - tag name</li>
+	<li>
+		<strong>#navigation</strong> - ID</li>
+	<li>
+		<strong>.navigation</strong> - class</li>
+</ul>
+<h4 id="even_grid">
+	Grid Layout -&gt; Even</h4>
+<p>
+	Chose this option for a perfectly symmetrical grid, where items will always be the same size as each other <strong><em>Some images will be cropped if not all images are the same size ratio.</em></strong></p>
+   <span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_208.jpg" width="924" height="708"></span></p>  
+    
+<h4 id="masonry">
+	Grid Layout -&gt; Masonry</h4>
+<p>
+	Essentially a <span class="cj-highlight">non-symmetrical</span> grid, where the width of the items will always be the same, but the height of each item will vary depending on the original image's size ratio.  <strong><em>Images may be resized but will never be cropped.</em></strong></p>
+    
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_207.jpg" width="925" height="553"></span></p>    
+    
+<h4 id="cobbles">
+	Grid Layout -&gt; Cobbles</h4>
+<p>
+	A <span class="cj-highlight">symmetrical</span> grid, with uneven Grid Item sizes.  For example, a grid item can take up exactly 2 columns and 1 row, 1 column and 2 rows, etc.  <strong><em>Image cropping may occur to achieve layout symmetry</em></strong>.</p>
+    
+<p><span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_209.jpg" width="840" height="803"></span></p>
+    
+  <p><br />When using <span class="cj-highlight">Cobbles</span>, the number of columns and rows an item takes up is set individually per item.  This can be done by editing the item's "Post Meta":</p>
+  
+<p><span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_210.jpg" width="553" height="255"></span></p>  
+<p><span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_211.jpg" width="670" height="619"></span></p>    
+    
+<h2>&nbsp;
+	</h2>
+<h3 id="grid_columns">
+	Columns</h3>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>Quick Note:</strong></p>
+<p>
+	<em><span class="cj-highlight">Columns</span> refer to the amount of items that will be displayed horizontally next to each other side by side.&nbsp; <span class="cj-highlight">Rows</span> refer to sets of <span class="cj-highlight">columns</span> stacked vertically on top of one another.&nbsp; So for example, if your grid were 5x3, 5 would equal the number of columns, and 3 would equal the number of rows.</em></p>
+<p>&nbsp;
+	</p>
+<p>
+	The <span class="cj-highlight">Columns</span> section will allow you to designate a specific column number based on the current screen width.&nbsp; If you&#39;re rather just use the default sizes, choose <span class="cj-highlight">Simple</span>, and adjust the number of columns you&#39;d like your Grid to display based on each listed size:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_21.jpg" width="615" height="617"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	If you&#39;d like more control, choose the <span class="cj-highlight">Advanced</span> option, and you&#39;ll be able to designate a specific width for each viewport:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_22.jpg" width="652" height="432"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Using the <span class="cj-highlight">Advanced</span> option, you&#39;ll also notice a new option toward the top right, that will allow you to set different column numbers based on a different set of rows.&nbsp; Clicking the blue <span class="cj-highlight">+</span> button will add another set of row options you can add to your advanced columns settings:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_23.jpg" width="761" height="500"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	And you can add even more sets of rows settings by clicking the blue <span class="cj-highlight">+</span> button more than once.&nbsp; This allows you to get creative in the way your grid is displayed.&nbsp; In the screenshot below, notice how I&#39;ve set the same number of columns for the odd numbered sets (Rows 1-5-9 and 3-7-11), and the same number of columns for the even numbered sets (Rows 2-6-10 and 4-8-12).</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_24.jpg" width="731" height="421"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Here&#39;s an example of what these jagged numbered rows would look like in a <span class="cj-highlight">Tablet Landscape</span> viewport.&nbsp; Notice how the images resize per row based on the number of columns to fit the available width.&nbsp;</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_26.jpg" width="777" height="721"></span></p>
+<p>
+	Lastly, if you add a new <span class="cj-highlight">Set</span> or rows, and what to delete it, click the blue <span class="cj-highlight">-</span> (minus) button and that will delete the last row in the set.</p>
+<p>&nbsp;
+	</p>
+<h3 id="pagination_load_more">
+	Pagination</h3>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>Quick Note: </strong></p>
+<p>
+	<em><span class="cj-highlight">Pagination -&gt; Enable</span> means your new items will be loaded in traditional WordPress <span class="cj-highlight">Pagination</span> format (with numbered buttons that toggle new sets of items).</em></p>
+<p>
+	<em><span class="cj-highlight">Pagination -&gt; Disable</span> allows for two options.&nbsp; The first is to load in additional Grid items with a traditional <span class="cj-highlight">Load More</span> button, and the second option is an <span class="cj-highlight">Infinite Scroll</span> option, which will load in new items as the user scrolls to the bottom of the Grid (no navigation buttons are used for the <span class="cj-highlight">Infinite Scroll</span> option).</em></p>
+<p>&nbsp;
+	</p>
+<h4>
+	Pagination -&gt; Enable</h4>
+<p>
+	If your Grid happens to include a large number of items, you may not want to show them all at once when the page first loads.&nbsp; This is where the <span class="cj-highlight">Pagination</span> option comes in handy.&nbsp; Choosing <span class="cj-highlight">Enable</span> will only show the <span class="cj-highlight">Max Visible Rows</span> set by you, and then if your Grid has more items, they&#39;ll be shown when your website visitor clicks the Pagination numbered buttons.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_25.jpg" width="737" height="877"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	If you&#39;ve set <span class="cj-highlight">Pagination</span> to <span class="cj-highlight">Enable</span>, but aren&#39;t seeing any Pagination numbered buttons in your preview, it means they need to be added to your <span class="cj-highlight">Navigation Skin</span> (Essential Grid Settings -&gt; Navigation -&gt; Navigation Layout).&nbsp; Setting up your <span class="cj-highlight">Navigation Skin</span> is covered in more detail <a href="#navigation_settings">here</a>.</p>
+<p>
+	When choosing your <span class="cj-highlight">Pagination</span> option, you&#39;ll see there are different options for the <span class="cj-highlight">Smart Loading</span> section for when Pagination is enabled and when it&#39;s disabled.&nbsp; When it&#39;s enabled, you&#39;ll have the option of <span class="cj-highlight">Lazy Loading</span> your additional images when the Pagination buttons are used to click over to a new set of items:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_29.jpg" width="644" height="193"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	<span class="cj-highlight">Lazy Load</span> basically means that the additional Pagination items that aren&#39;t immediately visible on the page are loaded <span class="cj-highlight">on-demand</span>.&nbsp; This option is quite useful when your Grid has a large amount of items, and you don&#39;t want your web page to load as fast as possible when a user first visits your web page.</p>
+<p>
+	Choose <span class="cj-highlight">Off</span> for <span class="cj-highlight">Lazy Load</span> if you&#39;d rather load all your item&#39;s images as soon as the page loads.&nbsp; This is usually a good option when you don&#39;t have a lot of items, and want the pagination transition to happen as seamlessly as possible (the images will essentially be <span class="cj-highlight">preloaded</span>, meaning they&#39;ll appear instantly when the Pagination buttons are clicked).</p>
+<p>
+	Lastly, if you&#39;re using the <span class="cj-highlight">Lazy Load</span> option, the <span class="cj-highlight">Lazy Load Color</span> will represent the placeholder color that will be shown until the image is loaded on-demand.&nbsp; When you click the <span class="cj-highlight">Select Color</span> button, you can choose a color from the color wheel, or enter a hex color manually into the text field as shown in the following screenshot:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_30.jpg" width="608" height="314"></span></p>
+<p>&nbsp;
+	</p>
+<h3>
+	Pagination -&gt; Disable</h3>
+<p>
+	If you don&#39;t want to use Pagination for your grid, when its set to <span class="cj-highlight">Disable</span>, you&#39;ll see a different set of options for the <span class="cj-highlight">Smart Loading</span>.&nbsp; In this section, you&#39;ll have the option to use a <span class="cj-highlight">More</span> button, or an <span class="cj-highlight">Infinite Scroll</span> (where items will load when the user scrolls the page).</p>
+<p>
+	When either the <span class="cj-highlight">More</span> or <span class="cj-highlight">Infinite Scroll</span> options are used, you&#39;ll also see the options <span class="cj-highlight">Nr. of Items Start</span> and <span class="cj-highlight">Nr. of Items More</span>.&nbsp; Use these options for setting how many items you want to load initially, and how many items you want to load each time the <span class="cj-highlight">More</span> button is clicked.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_31.jpg" width="641" height="198"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	These options won&#39;t show up in your back-end preview, but here&#39;s an example of what the above settings would look like on the font-end:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_32.jpg" width="989" height="332"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Lastly, if you just want to show all your available grid items no matter what, set the <span class="cj-highlight">Pagination</span> to <span class="cj-highlight">Disable</span>, and the <span class="cj-highlight">Smart Loading -&gt; Load More</span> option to <span class="cj-highlight">None</span>.&nbsp;</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_27.jpg" width="654" height="112"></span></p>
+<p>&nbsp;
+	</p>
+<h3 id="spacing_padding">
+	Spacings and Paddings</h3>
+<p>
+	The <span class="cj-highlight">Item Spacing</span> will represent the space between the items themselves, and the <span class="cj-highlight">Padding</span> values will represent the space between the Grid itself and its immediate HTML parent element.&nbsp; Here&#39;s an example:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_33.jpg" width="884" height="643"></span></p>
+</section>
+<section id="navigation_settings">
+	<div class="page-header"><h3>Navigation Settings</h3><hr class="notop"></div>
+<p>
+	The <span class="cj-highlight">Navigations</span> section contains the options for building custom buttons and other navigation elements that will appear in your Grid.&nbsp;</p>
+<p>&nbsp;
+	</p>
+<h3 id="navigation_layout">
+	Navigation Layout</h3>
+<p>
+	The first section, <span class="cj-highlight">Navigation Layout</span>, is a WYSIWYG editor for setting up your custom navigation controls:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_128.jpg" width="941" height="542"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Here you&#39;ll see two sections:</p>
+<ol>
+	<li>
+		<strong>Available Modules</strong> - The buttons/controls that can be added to one of the <span class="cj-highlight">Available DropZones</span>.</li>
+	<li>
+		<strong>Available DropZones</strong> - The sections available for adding an <span class="cj-highlight">Available Module</span>.</li>
+</ol>
+<p>
+	To add an <span class="cj-highlight">Available Module</span> to a <span class="cj-highlight">DropZone</span>, drag the click and drag the button with your mouse into the <span class="cj-highlight">DropZone</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_137.jpg" width="757" height="399"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_138.jpg" width="628" height="388"></span></p>
+<p>
+	There are six <span class="cj-highlight">Available Modules</span>, and six <span class="cj-highlight">Available DropZones</span>.&nbsp; But you can add multiple modules to the same DropZone.&nbsp; In the screenshot below, I&#39;ve added both the "left" and "right" arrows to "DropZone Top 2":</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_139.jpg" width="626" height="389"></span></p>
+<p>
+	Let&#39;s go ahead and all the modules to the DropZones, and then click <span class="cj-highlight">Refresh Preview</span> to see an example of how these elements will look when added to our actual Grid:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_140.jpg" width="667" height="400"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_141.jpg" width="912" height="589"></span></p>
+<p>&nbsp;
+	</p>
+<h3>
+	Drop Zones Layout</h3>
+<p>
+	Now that we&#39;ve added our buttons and controls to the Grid, we can begin to customize their positioning.&nbsp; For demonstration purposes, I&#39;ve moved the <span class="cj-highlight">Cart</span> module back to the left column, and set the Navigation WSYIWYG to the following:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_142.jpg" width="642" height="372"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Next, I applied the following settings to the <span class="cj-highlight">Drop Zone Layout</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_143.jpg" width="792" height="268"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	.. then clicked <span class="cj-highlight">Refresh Preview</span>, and here&#39;s what our updated Grid looks like:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_144.jpg" width="992" height="530"></span></p>
+<p>&nbsp;
+	</p>
+<h3>
+	Module Spaces</h3>
+<p>
+	The <span class="cj-highlight">Module Spaces</span> option is for when you have two or more "Available Modules" placed in the same DropZone.&nbsp; In our example, this applies to our "DropZone Top 2", where we have both the <span class="cj-highlight">Filter</span> and <span class="cj-highlight">Sort</span> modules placed next to each other.&nbsp; So if we apply a 35 value to the <span class="cj-highlight">Module Spacing</span> field:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_129.jpg" width="614" height="69"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	.. and then clicked <span class="cj-highlight">Refresh Preview</span>, we&#39;d see a 35px space between our <span class="cj-highlight">Filter</span> and <span class="cj-highlight">Sort</span> modules:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_130.jpg" width="668" height="241"></span></p>
+<p>&nbsp;
+	</p>
+<h3>
+	Filtering</h3>
+<p>
+	The <span class="cj-highlight">Filter</span> module allows us to filter the Grid based on the <span class="cj-highlight">Category</span> set for each of our item&#39;s posts:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_133.jpg" width="1035" height="328"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	The <span class="cj-highlight">Filtering</span> section is for customizing the "Filter" module&#39;s behavior.&nbsp; If the Filter module is used in our navigation setup, here you can change the <span class="cj-highlight">Filter- All</span> button text, and you can also set the <span class="cj-highlight">Filter Type</span>, which has the following two options:</p>
+<ol>
+	<li>
+		<strong>Single</strong> - Choose this for traditional "buttons", where only one category can be selected at a time.</li>
+	<li>
+		<strong>Multiple</strong> - Choose this if you&#39;d like the ability to select multiple categories at the same time.</li>
+</ol>
+<p>&nbsp;
+	</p>
+<p>
+	In our example so far, we&#39;ve been seeing the default <span class="cj-highlight">Filter Type</span> setting which is <span class="cj-highlight">Single</span>.&nbsp; Let&#39;s take a look at how our Grid looks with the <span class="cj-highlight">Filter Type</span> set to <span class="cj-highlight">Multiple</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_131.jpg" width="608" height="121"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	.. then after clicking <span class="cj-highlight">Refresh Preview</span>, here&#39;s what our new Filter buttons look like:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_132.jpg" width="637" height="317"></span></p>
+<p>&nbsp;
+	</p>
+<h3>
+	Sorting</h3>
+<p>
+	The <span class="cj-highlight">Sorting</span> section is for customizing the "Sort" module&#39;s drop-down list.&nbsp; Here you can choose what sorting options you want to include by using <span class="cj-highlight">Ctrl-Select</span> for each <span class="cj-highlight">Available Sortings</span> option:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_134.jpg" width="639" height="316"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Once you&#39;ve chosen the items you wish to include, click <span class="cj-highlight">Refresh Preview</span>, and you&#39;ll see them listed in your Grid&#39;s <span class="cj-highlight">Sort</span> module.</p>
+<p>
+	<em><strong>Note:</strong> Clicking <span class="cj-highlight">Sort by Title</span> will activate the drop-down list.&nbsp; Clicking the arrow will toggle <span class="cj-highlight">Ascending/Descending</span> order.</em></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_135.jpg" width="602" height="225"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Lastly, the <span class="cj-highlight">Start Sorting By</span> option is for what sorting option should be used when the Grid first loads, and the <span class="cj-highlight">Sorting Order</span> options are <span class="cj-highlight">Ascending</span> and <span class="cj-highlight">Descending</span>, which will determine the order in which the items are sorted.&nbsp; For example, if you were to "Sort by Title", with an "Ascending" sorting order, the items would be sorted from "A-Z", and "Descending" would be would be "Z-A".</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_136.jpg" width="561" height="302"></span></p>
+</section>
+<section id="skin_settings">
+	<div class="page-header"><h3>Skin Settings</h3><hr class="notop"></div>
+<p>
+	The Skin Editor consists of 3 parts:</p>
+<ol>
+	<li>
+		<strong>Background</strong> - The main background color of your Grid</li>
+	<li>
+		<strong>Navigation</strong> - The CSS skin used for your navigation elements</li>
+	<li>
+		<strong>Item Skins</strong> - The layout used for the individual Grid items (30 different choices!)</li>
+</ol>
+<p>&nbsp;
+	</p>
+<h3>
+	Background</h3>
+<p>
+	Here you can set the main background color for your Grid.&nbsp; Use the color picker, or you can also enter a hex color manually into the text field.&nbsp;</p>
+<p>
+	<strong>Choose <span class="cj-highlight">Default</span> for no background color (transparent).</strong></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_153.jpg" width="695" height="410"></span></p>
+<p>&nbsp;
+	</p>
+<h3 id="navigations">
+	Navigation</h3>
+<p>
+	The <span class="cj-highlight">Navigation</span> section is for editing the different skins available for your Grid&#39;s navigation:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_154.jpg" width="779" height="64"></span></p>
+<p>
+	We&#39;ve been using the <span class="cj-highlight">Minimal Light</span> skin in the documentation so far, but let&#39;s take a look at what the different default skins look like (For better contrast between colors, I&#39;ve adjusted the Grid&#39;s <span class="cj-highlight">background-color</span> in some of the examples).</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_164.jpg" width="884" height="106"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_166.jpg" width="884" height="108"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_167.jpg" width="884" height="102"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_168.jpg" width="884" height="103"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_169.jpg" width="884" height="89"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_170.jpg" width="884" height="97"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_171.jpg" width="884" height="81"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_172.jpg" width="884" height="83"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	The CSS for any of the above skins can be edited by selecting the skin from the drop down, and then clicking the <span class="cj-highlight">Edit Skin</span> button:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_155.jpg" width="764" height="64"></span></p>
+<p>
+	<br>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_156.jpg" width="678" height="606"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	You can also create a new custom Skin.&nbsp; This is a great option in case you want to modify a skin, but at the same time, preserve the original default skin for later usage.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_157.jpg" width="740" height="66"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_158.jpg" width="373" height="223"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	After clicking the <span class="cj-highlight">Ok</span> button, you&#39;ll see a popup of a CSS template where you can edit the CSS for your new custom skin:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_159.jpg" width="658" height="594"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Click the <span class="cj-highlight">Save</span> button, and then you&#39;ll see the new skin in the drop-down list:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_160.jpg" width="777" height="62"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	You may have noticed the the default template used when creating your custom skin was <span class="cj-highlight">Flat Light Buttons</span>.&nbsp; If you want to use another template for your custom skin, just choose it from the drop down, click <span class="cj-highlight">Edit Skin</span>, copy its entire CSS, and then replace the CSS in your new custom skin with the CSS from the other template.&nbsp;</p>
+<p>&nbsp;
+	</p>
+<p>
+	If you&#39;ve created a custom skin but no longer need it, you can delete it from the drop down list by clicking the <span class="cj-highlight">Delete Skin</span> button:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_161.jpg" width="761" height="63"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	You&#39;ll then see a popup alert asking you to confirm your choice.&nbsp; The message in the popup explains that this is a <strong>GLOBAL</strong> change, and if you proceed to delete the skin, it will no longer be available for <strong>ANY</strong> other Essential Grids you may have previously created (so always delete with caution!)</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_162.jpg" width="525" height="185"></span></p>
+<p>&nbsp;
+	</p>
+<h3 id="item_skins">
+	Item Skins</h3>
+<p>
+	There are 30 prebuilt <span class="cj-highlight">Item Skins</span> that you can choose from.&nbsp; An item with a blue toolbar equals an <span class="cj-highlight">unselected</span> skin.&nbsp; The item with a green toolbar is your currently selected skin:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_163.jpg" width="1068" height="330"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Use the pagination to view all 30 skins.&nbsp; Skins have a preset default view, and a preset <span class="cj-highlight">hover</span> view.&nbsp; Hover your mouse over each skin to preview the item&#39;s <span class="cj-highlight">hover</span> view.</p>
+<p>
+	You can also filter the skin view using the filter buttons, directly above the pagination:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_165.jpg" width="537" height="65"></span></p>
+<p>
+	The filter buttons are:</p>
+<ul>
+	<li>
+		<strong>Filter - All:</strong> View all skins</li>
+	<li>
+		<strong>Selected Skin:</strong> View only the currently selected skin</li>
+	<li>
+		<strong>Favorites:</strong> Filter skins you&#39;ve designated as a <span class="cj-highlight">Favorite</span> inside the <a href="#item_skin_editor">Item Skin Editor</a>.</li>
+	<li>
+		<strong>Masonry:</strong> View the skins that have a <span class="cj-highlight">Masonry</span> layout (where the items&#39; height will often vary)</li>
+	<li>
+		<strong>Even:</strong> View skins where each item is meant to be evenly aligned (same width &amp; height, symmetrical view)</li>
+</ul>
+<p>
+	Once you&#39;ve chosen a default <span class="cj-highlight">Item Skin</span>, it can be customized inside the <a href="#item_skin_editor">Item Skin Editor</a>.&nbsp;</p>
+</section>
+<section id="main_animations">
+	<div class="page-header"><h3>Main Animations</h3><hr class="notop"></div>
+<p>
+	The <span class="cj-highlight">Animations</span> section of the <span class="cj-highlight">Grid Item Settings</span> is where you can customize the main animation for the Grid itself.&nbsp; This includes when the Grid first loads into the page, or when the Grid is filtered by using one of the category filters or with pagination.</p>
+<h4 id="main_animations_grid_animations_gt_start_and_filter_animations">Grid Animations -&gt; Start And Filter Animations</h4>
+<p>
+	Choose from one of the 11 available <span class="cj-highlight">animation</span> types:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_13.jpg" width="813" height="404"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="main_animations_grid_animations_gt_animation_speed">Grid Animations -&gt; Animation Speed</h4>
+<p>
+	Set a speed for your chosen animation (in milliseconds)</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_14.jpg" width="657" height="149"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="main_animations_grid_animations_gt_animation_delay">Grid Animations -&gt; Animation Delay</h4>
+<p>
+	Use this option for creating a <span class="cj-highlight">delay</span> between the items themselves when they animate in.&nbsp; For example, if you have a Grid with a large amount of items, animating them all at the same exact time will decrease the animation performance.&nbsp; So for a Grid with a large amount of items, increasing this number will effectively <span class="cj-highlight">space out</span> the item animations, which will result in increased animation performance (animations will appear smoother).</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_15.jpg" width="669" height="158"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="main_animations_hover_animations_gt_hover_animation_delay">Hover Animations -&gt; Hover Animation Delay:</h4>
+<p>
+	This setting will add a <span class="cj-highlight">delay</span> to your hover animations:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_16.jpg" width="620" height="72"></span></p>
+</section>
+<section id="lightbox_settings">
+	<div class="page-header"><h3>Lightbox Settings</h3><hr class="notop"></div>
+<p>
+	In this section, you can choose the default media source you wish to open inside the lightbox, as well as several other custom settings for the lightbox itself.</p>
+<p>&nbsp;
+	</p>
+<h4 id="lightbox_settings_shown_media_orders_gt_set_source_order">Shown Media Orders -&gt; Set Source Order</h4>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_118.jpg" width="990" height="475"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="lightbox_settings_lightbox_gallery_gt_gallery_mode">Lightbox Gallery -&gt; Gallery Mode</h4>
+<p>
+	Options for this are:</p>
+<ul>
+	<li>
+		<strong>Single Mode:</strong> Open only that item inside the lightbox</li>
+	<li>
+		<strong>All Items:</strong> Show a mini-gallery showing all items from your Grid</li>
+	<li>
+		<strong>Filter based all Pages:</strong> Show a mini-gallery based on your Grid&#39;s pagination</li>
+	<li>
+		<strong>Filter based current Page:</strong> Show a mini-gallery based on the currently selected pagination page only</li>
+</ul>
+<p>&nbsp;
+	</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_119.jpg" width="628" height="196"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="lightbox_settings_lightbox_layout">Lightbox Layout</h4>
+<p>
+	In this section, you have the option to display a title for the item shown in the lightbox, and can also choose to use social buttons such as Facebook and Twitter:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_120.jpg" width="520" height="137"></span></p>
+<p>
+	<br>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_121.jpg" width="514" height="140"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="lightbox_settings_lightbox_spacing">Lightbox Spacing</h4>
+<p>
+	In this section, you can set the padding for both the title (is used) and media content.&nbsp; Padding values are based on pixels.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_122.jpg" width="637" height="99"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="lightbox_settings_effects">Effects</h4>
+<p>
+	The <span class="cj-highlight">Effects</span> section is where you can choose the animation settings for when the lightbox opens and closes, and also when the lightbox navigates to a new item:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_123.jpg" width="589" height="200"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="lightbox_settings_navigation">Navigation</h4>
+<p>
+	In the <span class="cj-highlight">Navigation</span> section, you can choose to use <span class="cj-highlight">Navigation Arrows</span> and also choose to show optional <span class="cj-highlight">Mini Thumbnails</span> (both options only apply to when the lightbox has more than one item).</p>
+<p>
+	In addition, you can also set the desired width and height for your thumbnails (in pixels).</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_124.jpg" width="671" height="94"></span></p>
+<p>&nbsp;
+	</p>
+</section>
+<section id="video_spinner">
+	<div class="page-header"><h3>Video / Spinner</h3><hr class="notop">
+    <strong>Note:</strong><i>This section is for the global Video settings.  If you want to learn how to add videos to your Grid Items, visit <a href="#grid_item_options">Grid Item Options</a>.</i></div>
+<h3>
+	Video</h3>
+<p>
+	The <span class="cj-highlight">Video</span> section in the Essential Grid Settings is where you can set where your video&#39;s <span class="cj-highlight">poster</span> content is pulled from, and in what order.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_174.jpg" width="869" height="356"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="video_spinner_spinner">Spinner</h4>
+<p>
+	The <span class="cj-highlight">Spinner</span> section in the Essential Grid Settings is where you can set the main preloader for your Eseential Grid.&nbsp; Here you can also choose to <span class="cj-highlight">Hide Markups before load</span>, which will essentially hide all navigation elements until the Grid Items have loaded.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_173.jpg" width="1068" height="365"></span></p>
+</section>
+<section id="item_skin_editor">
+	<div class="page-header"><h3>Item Skin Editor</h3><hr class="notop"></div>
+<p>
+	The <span class="cj-highlight">Item Skin Editor</span> is where you can customize any of the 30 available item skins.&nbsp; At the top of each skin, you&#39;ll see a toolbar which will allow you to <span class="cj-highlight">Favorite</span> a skin for easier preview filtering, duplicate any given skin, delete a skin, and lastly, customize the skin&#39;s content, layout and styles.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_47.jpg" width="983" height="638"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	When you "Favorite" a skin, it will begin to show up in the <span class="cj-highlight">Favorites</span> preview filter.&nbsp; Once you "Favorite" a skin, the star symbol in the toolbar will show up as a solid color.&nbsp; Then selecting the <span class="cj-highlight">Favorite</span> filter button will now show the list of skin&#39;s you&#39;ve marked as "Favorite".</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_58.jpg" width="818" height="472"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	The <span class="cj-highlight">duplicate</span> option is a good option for preserving the original skin in case wish to use it later.&nbsp; That way you can make edits to the duplicated skin, while leaving the original intact in case you wish to use the original later, or in case you make a mistake editing and wish to start over.</p>
+<p>
+	If you choose to <span class="cj-highlight">duplicate</span> a skin, it will be titled <span class="cj-highlight">Item Skin 1</span>, and will show up last in the list of skins.&nbsp; Use the pagination to navigate to your new, duplicated skin:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_69.jpg" width="1069" height="616"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>Always <span class="cj-highlight">delete</span> with caution!</strong></p>
+<p>
+	If you&#39;ve duplicated a skin and no longer wish to use it, you can click the <span class="cj-highlight">delete</span> icon in the item&#39;s toolbar.&nbsp; <em>Just keep in mind that this is a <strong>GLOBAL</strong> change, meaning the skin will no longer be available for any of your Grid&#39;s you may have previously created.</em></p>
+<p>&nbsp;
+	</p>
+<p>
+	Once we&#39;ve decided which skin we wish to use, we can customize it by clicking the green cog icon:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_80.jpg" width="440" height="333"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Then we&#39;ll be taken to the item&#39;s individual skin editor:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_91.jpg" width="1098" height="785"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Now that we&#39;re on the individual Item Skin editor, you&#39;ll see a small toolbar fixed to the right side of the screen.&nbsp; Let&#39;s quickly review the buttons in this toolbar:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_113.jpg" width="533" height="273"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	At the beginning of the page, you&#39;ll see that you can rename the skin for easier reference.&nbsp; The name of the skin will always be used for the <span class="cj-highlight">prefix</span> applied to the skin&#39;s CSS class rules.&nbsp; So in the following example:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_102.jpg" width="660" height="53"></span></p>
+<p>
+	.. the <span class="cj-highlight">Class Prefix</span> is now based on our item&#39;s skins&#39; new name: <span class="cj-highlight">My Custom Item Skin</span>.&nbsp; So if we wanted to add some custom CSS for the skin into the <span class="cj-highlight">Global Custom CSS</span> box (button shown in screenshot above), we can now use the <span class="cj-highlight">prefix</span> for the element we want to target, making it so the CSS is only applied to the current skin being edited.&nbsp; Here&#39;s an example:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_117.jpg" width="760" height="227"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	The individual Item Skin Editor consists of 4 main sections:</p>
+<ol>
+	<li>
+		<strong>Item Layout:</strong> WYSIWYG/Preview of your current item skin</li>
+	<li>
+		<strong>Available Layers:</strong> Prebuilt text styles, icons and buttons that can be inserted into the <span class="cj-highlight">Item Layout</span></li>
+	<li>
+		<strong>Layout Composition:</strong> General look and positioning of elements</li>
+	<li>
+		<strong>Layer Settings:</strong> Set custom styles the individual item elements</li>
+</ol>
+<p>&nbsp;
+	</p>
+<p>
+	Now that we&#39;ve reviewed the page, let&#39;s start editing our skin!&nbsp; Once you begin to make edits, the <span class="cj-highlight">Item Layout</span> section will begin to reflect your custom settings.</p>
+<p>&nbsp;
+	</p>
+<h3 id="item_layout">
+	Item Layout</h3>
+<p>
+	The <span class="cj-highlight">Item Layout</span> section is the WYSIWYG preview for your Item Skin.&nbsp; As you make changes to the skin using the other sections of the Item Skin Editor, you&#39;ll see the changes reflected in this section.</p>
+<p>
+	Inside the Item Layout section, we can add/remove items, and then click and drag them around the preview canvas for proper placement.&nbsp; Here&#39;s a quick overview of the Item Layout section:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_96.jpg" width="472" height="487"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>From the above screenshot:</strong></p>
+<ol>
+	<li>
+		Button to <span class="cj-highlight">Play</span> the hover animation in real-time.&nbsp; This option is particularly useful when customizing your Item Skin&#39;s animation settings.</li>
+	<li>
+		3D view of your Grid Item layers.&nbsp; Great for getting a better visualization of the Grid Item&#39;s layers.</li>
+	<li>
+		Button to hide preview architecture.&nbsp; Provides a more authentic look of what you&#39;ll be seeing on the front-end.</li>
+	<li>
+		Top <span class="cj-highlight">Drop Zone</span>.&nbsp; A "fixed" area within the Grid Item Skin.&nbsp; Anything "dropped" here will be automatically positioned at the top.</li>
+	<li>
+		Facebook icon element.&nbsp; The purple star next to the element means that it&#39;s currently the <span class="cj-highlight">selected</span> item in our <span class="cj-highlight">Item Layout</span>.&nbsp;</li>
+	<li>
+		<span class="cj-highlight">Line Break</span> which serves as a separator for content.&nbsp; Content can be dragged and dropped above or below a line break.</li>
+	<li>
+		Text block based which will display the item&#39;s <span class="cj-highlight">Post Title</span>.&nbsp;</li>
+	<li>
+		Bottom <span class="cj-highlight">Drop Zone</span>.&nbsp; A "fixed" area within the Grid Item Skin.&nbsp; Anything "dropped" here will be automatically positioned at the bottom.</li>
+</ol>
+<p>&nbsp;
+	</p>
+<p>
+	Clicking any of the elements inside the <span class="cj-highlight">Item Layout</span> will designated it as the "selected" item.&nbsp; Go ahead and click on the <span class="cj-highlight">Layout Settings</span> tab, and then click an element inside the Item Layout.&nbsp; After doing so, you&#39;ll see the current item selected in the <span class="cj-highlight">Layout Settings</span> will be the same as the element you just selected in the Item Layout.&nbsp; This allows for quick and easy styling of individual elements.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_97.jpg" width="1092" height="493"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Let&#39;s go ahead and reposition some of our elements, starting by dragging and dropping the <span class="cj-highlight">Post Title</span> into the top <span class="cj-highlight">Drop Zone</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_98.jpg" width="474" height="346"></span></p>
+<p><br />
+	After moving the <span class="cj-highlight">Post Title</span> element, you&#39;ll now see we have two <span class="cj-highlight">Line Breaks</span>, directly on top of one another.&nbsp; Let&#39;s go ahead and remove one of them by selecting one and then clicking the red <span class="cj-highlight">Remove</span> button:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_99.jpg" width="1096" height="481"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Next, let&#39;s replace the <span class="cj-highlight">cog wheel</span> icon with a <span class="cj-highlight">Twitter</span> icon instead.&nbsp; Select the <span class="cj-highlight">cog wheel</span> from the <span class="cj-highlight">Item Layout</span>, and then click on the icon graphic shown in the <span class="cj-highlight">Layer Settings</span> to select a new icon:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_100.jpg" width="1093" height="486"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_101.jpg" width="665" height="542"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_103.jpg" width="1087" height="482"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Next, I went ahead and moved our new Twitter button so it&#39;s placed between our Facebook and Link buttons.&nbsp; But we now have some awkward spacing between out Twitter and Link buttons, as shown in the following screenshot:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_104.jpg" width="428" height="337"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Let&#39;s go ahead and fix that real quick by adding a 10px right-margin to the Twitter icon:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_105.jpg" width="1092" height="435"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	.. and then lets remove the right-margin that was previously applied to our <span class="cj-highlight">Link</span> button, so our 3 buttons are perfectly centered:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_106.jpg" width="1092" height="435"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Finally, lets add a <span class="cj-highlight">Read More</span> button from our <span class="cj-highlight">Available Layers</span> section to the bottom <span class="cj-highlight">Drop Zone</span> in our <span class="cj-highlight">Item Layout</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_107.jpg" width="1088" height="830"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	And to center our new <span class="cj-highlight">Read More</span> button, let&#39;s set the element&#39;s <span class="cj-highlight">Float</span> to <span class="cj-highlight">None</span>, and also give it a 10px bottom-margin for a better appearance:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_108.jpg" width="1090" height="585"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Finally, let&#39;s see how our changes look on the frontend:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_109.jpg" width="707" height="398" /></span></p>
+<p>&nbsp;
+	</p>
+<h3>
+	Available Layers</h3>
+<p>
+	The <span class="cj-highlight">Available Layers</span> section is where we can drag and drop elements into our <span class="cj-highlight">Item Layout</span> section:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_110.jpg" width="1096" height="529"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Here&#39;s a description for the listed numbers in the above screenshot:</p>
+<ol>
+	<li>
+		Drag &amp; Drop <span class="cj-highlight">Line Break</span> element.&nbsp;</li>
+	<li>
+		Buttons for filtering the available layers</li>
+	<li>
+		Drag an item here to delete it from the list (this is permanent so delete with caution!)</li>
+	<li>
+		One of the Drag &amp; Drop elements</li>
+	<li>
+		Pagination for the <span class="cj-highlight">Available Layers</span>.&nbsp; Click the <span class="cj-highlight">#2</span> to see more <span class="cj-highlight">Available Layers</span>.</li>
+</ol>
+<h3>&nbsp;
+	</h3>
+<h3>
+	Layout Composition</h3>
+<h4 id="item_skin_editor_layout_gt_grid_layout">Layout -&gt; Grid Layout</h4>
+<p>
+	Choose <span class="cj-highlight">Even</span> if you want your items to all have the exact same height (symmetrical grid).</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_112.jpg" width="619" height="235"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	If <span class="cj-highlight">Even</span> is chosen, you&#39;ll see a <span class="cj-highlight">Ratio X</span> and <span class="cj-highlight">Ratio Y</span> option.&nbsp; These options will be used for the content spacing in the <span class="cj-highlight">Item Layout</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_114.jpg" width="1089" height="481"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Choose <span class="cj-highlight">Masonry</span> if you&#39;d like your Grid&#39;s items to have a <span class="cj-highlight">flexible</span> height (non-symmetrical Grid).</p>
+<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_48.jpg" width="619" height="235"></span>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_layout_gt_content">Layout -&gt; Content</h4>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_111.jpg" width="498" height="180"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	This option is for any content that will be shown outside the image container.&nbsp; For a good example, click the blue <span class="cj-highlight">back</span> button in the top-right-hand toolbar, and let&#39;s select the <span class="cj-highlight">Coolidge</span> skin:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_50.jpg" width="197" height="140"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_49.jpg" width="435" height="505"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Now that we&#39;ve selected the <span class="cj-highlight">Coolidge</span> skin, we&#39;ll see it in the <span class="cj-highlight">Item Layout</span> section.&nbsp; The <span class="cj-highlight">content</span> part of the skin is shown in the following screenshot:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_51.jpg" width="470" height="815"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Now we can use the <span class="cj-highlight">Content</span> options to position our content in different ways.&nbsp; The screenshot above has <span class="cj-highlight">Bottom Center</span> selected.&nbsp; Let&#39;s take a quick look at what <span class="cj-highlight">Top Left</span> would look like:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_52.jpg" width="498" height="180"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_53.jpg" width="470" height="811"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	You may notice that even though we set the content to be <span class="cj-highlight">Top Left</span>, some of the elements are still centered.&nbsp; This is because the elements themselves have a <span class="cj-highlight">text-align: center</span> applied to them.&nbsp; Lets left align these elements.&nbsp;</p>
+<p>
+	Hover your mouse over the element named <span class="cj-highlight">Post Title</span>, and then left-click your mouse.&nbsp; After doing so, you&#39;ll notice a purple star on the same line as the selected element:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_54.jpg" width="417" height="145"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	This purple star means the <span class="cj-highlight">Post Title</span> has been designated as the <span class="cj-highlight">Selected / Editable</span> element.&nbsp; Now that it&#39;s selected, we&#39;ll now see it listed in <span class="cj-highlight">Layer Settings</span> dropdown:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_55.jpg" width="617" height="67"></span></p>
+<p>
+	Select the arrow toward the right, and this will open up the editor for the <span class="cj-highlight">Post Title</span>.&nbsp; Use the options shown in the following screenshot to left-align the text:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_56.jpg" width="621" height="374"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Then repeat the process for the <span class="cj-highlight">Learn More</span> link, and here&#39;s our updated <span class="cj-highlight">Item Layout</span> with everything now left-aligned:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_57.jpg" width="455" height="352"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Click the blue <span class="cj-highlight">back</span> button, and lets see how the <span class="cj-highlight">Coolidge</span> skin looks in our general skins page (I&#39;ve marked the skin as a <span class="cj-highlight">Favorite</span> for easy filtering view)</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_59.jpg" width="381" height="599"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	And let&#39;s take a quick look at how this would look on the front-end of our site:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_60.jpg" width="590" height="538"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_cover_gt_cover_type">Cover -&gt; Cover Type</h4>
+<p>
+	For a good example of this setting, let&#39;s switch back to the default <span class="cj-highlight">Washington</span> skin.&nbsp; Then to view the item&#39;s <span class="cj-highlight">Cover</span> in action, click the blue <span class="cj-highlight">play</span> button in the <span class="cj-highlight">Item Layout</span> section:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_61.jpg" width="1093" height="544"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Now let&#39;s switch the <span class="cj-highlight">Cover Type</span> to <span class="cj-highlight">Content Based</span>.&nbsp; Here&#39;s how our preview would look now.&nbsp; Notice the content&#39;s background no longer fills the entire area, and only covers the area where the actual hover content is:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_62.jpg" width="1079" height="474"></span></p>
+<h4 id="item_skin_editor__nbsp">&nbsp;</h4>
+<h4 id="item_skin_editor_cover_gt_background_color">Cover -&gt; Background Color</h4>
+<p>
+	Now let&#39;s adjust the cover&#39;s background color:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_63.jpg" width="1078" height="469"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_cover_gt_opacity">Cover -&gt; Opacity</h4>
+<p>
+	And lastly, let&#39;s adjust the cover&#39;s <span class="cj-highlight">transparency</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_64.jpg" width="1088" height="449"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_spaces_gt_full_item">Spaces -&gt; Full Item</h4>
+<p>
+	In this section, you can designate the item&#39;s padding, border, and corresponding colors to give the item a customized <span class="cj-highlight">frame</span> look.</p>
+<p>
+	<em><strong>Note: </strong><span class="cj-highlight">Paddings</span>, <span class="cj-highlight">Border</span> and <span class="cj-highlight">Border Radius</span> are listed in the usual CSS <span class="cj-highlight">shortcut</span> order of <span class="cj-highlight">Top, Right, Bottom, Left</span>.</em></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_65.jpg" width="1086" height="483"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Here&#39;s an example of the above settings on our front-end.&nbsp; To accentuate the <span class="cj-highlight">frame</span>, I&#39;ve given the grid items some spacing (Grid Settings -&gt; Spacings -&gt; Item Spacing -&gt; 5px)</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_66.jpg" width="982" height="454"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_spaces_gt_content">Spaces -&gt; Content</h4>
+<p>
+	For a good example of this option, I&#39;ve switched back to the <span class="cj-highlight">Coolidge</span> skin:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_67.jpg" width="1093" height="537"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	In the above screenshot, you&#39;ll notice that adjusting the background color of the <span class="cj-highlight">content</span> didn&#39;t change the background color of everything.&nbsp; Let&#39;s go ahead and fix that by adjusting the individual element styles:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_68.jpg" width="1079" height="518"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	.. and then repeat the process for the <span class="cj-highlight">Learn More</span> hyperlink as well.&nbsp; Now we have a nice solid colored background for our entire content section:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_70.jpg" width="472" height="410"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	and here&#39;s a quick view of our changes on the front-end:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_71.jpg" width="667" height="544"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_shadow">Shadow</h4>
+<p>
+	The <span class="cj-highlight">Use Shadow</span> options are <span class="cj-highlight">Media</span>, <span class="cj-highlight">Content</span> and <span class="cj-highlight">Both</span>.&nbsp; For the following example, I&#39;ve chosen <span class="cj-highlight">Both</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_72.jpg" width="1091" height="863"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_animation">Animation</h4>
+<p>
+	The <span class="cj-highlight">Animation</span> section is where you can customize the hover effect animation for your Grid Items:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_73.jpg" width="619" height="482"></span></p>
+<p>&nbsp;
+	</p>
+<h3>
+	Layer Settings</h3>
+<p>
+	This section is for the individual Grid Item elements.&nbsp; This includes text, icons, buttons and hyperlinks.&nbsp; Essentially all of the elements visible in your <span class="cj-highlight">Item Layout</span> section (right side of screenshot below), will become editable in the <span class="cj-highlight">Layer Settings</span> section.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_74.jpg" width="1092" height="545"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Before you begin to make your edits, if you want to preserve the element&#39;s original settings, you can use the <span class="cj-highlight">Save As Template</span> button to essentially <span class="cj-highlight">duplicate</span> the current element, and then save the duplicated element under a new, unique name:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_115.jpg" width="619" height="308"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_116.jpg" width="285" height="176"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_layer_settings_gt_source">Layer Settings -&gt; Source</h4>
+<p>
+	The <span class="cj-highlight">Source</span> dropdown has 3 choices.&nbsp; <span class="cj-highlight">Icon</span>, <span class="cj-highlight">Post</span> and <span class="cj-highlight">HTML</span>:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_75.jpg" width="623" height="384"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	When <span class="cj-highlight">Icon</span> is chosen, you&#39;ll have the option to change the icon:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_76.jpg" width="618" height="309"></span></p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_77.jpg" width="694" height="559"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Use the <span class="cj-highlight">Post</span> option if you want to pull in post-based content from the post that each item is based on.&nbsp; The screenshot below shows the list of available options:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_78.jpg" width="622" height="439"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	When <span class="cj-highlight">Post</span> is chosen as the <span class="cj-highlight">Source</span> type, you&#39;ll then have the option to limit the post-based content by characters or words:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_79.jpg" width="618" height="326"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	When <span class="cj-highlight">HTML</span> is chosen as the <span class="cj-highlight">Source</span> type, you&#39;ll see a text area box where you can enter custom HTML:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_81.jpg" width="614" height="365"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	<a href="#custom_meta_data">Custom Meta Tags</a> can also be used when <span class="cj-highlight">Post</span> and <span class="cj-highlight">HTML</span> are chosen.&nbsp;</p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_layer_settings_gt_style">Layer Settings -&gt; Style</h4>
+<p>
+	This section is where you can apply styles such as font and color to the element.&nbsp; If you&#39;re styling an icon, adjust the <span class="cj-highlight">font-size</span> to increase or decrease the size of the icon.&nbsp; <span class="cj-highlight">Font-Family</span> is not needed for icons.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_82.jpg" width="623" height="589"></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Each option in the <span class="cj-highlight">Layer Settings</span> has both an "Idle" and a "Hover" setting.&nbsp; For any given section, click the <span class="cj-highlight">Hover</span> tab to apply specific hover styles for that element.&nbsp;</p>
+<p>
+	If you do not wish to apply a hover effect, un-check the <span class="cj-highlight">Hover</span> checkbox and the hover styles will be ignored.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_83.jpg" width="615" height="530"></span></p>
+<h4 id="item_skin_editor__nbsp">&nbsp;</h4>
+<p>
+	To use the default styles from another element from the <span class="cj-highlight">Available Layers</span> section, drag and drop the layer into the <span class="cj-highlight">Drop Style for Change</span> box:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_84.jpg" width="613" height="395"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_layer_settings_gt_style_gt_spacing">Layer Settings -&gt; Style -&gt; Spacing</h4>
+<p>
+	Inside the <span class="cj-highlight">Spacing</span> section, you set custom styles for the elements&#39; CSS position, display, float, clear, margin and padding properties:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_85.jpg" width="619" height="432"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_layer_settings_gt_style_gt_border">Layer Settings -&gt; Style -&gt; Border</h4>
+<p>
+	In this section, you can customize the available border settings for the element:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_86.jpg" width="616" height="372"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_layer_settings_gt_style_gt_bg">Layer Settings -&gt; Style -&gt; BG</h4>
+<p>
+	Edit the background color of your element, and also the background color&#39;s transparency level:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_87.jpg" width="618" height="420"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_layer_settings_gt_style_gt_shadow">Layer Settings -&gt; Style -&gt; Shadow</h4>
+<p>
+	Apply a CSS shadow to your element:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_88.jpg" width="700" height="480"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_layer_settings_gt_show_hide">Layer Settings -&gt; Show/Hide</h4>
+<p>
+	In this section, you can choose to hide the layer based on the Grid Item&#39;s current width.&nbsp; This option is particularly useful when you want to hide an element on mobile.&nbsp; For example, entering a number such as <span class="cj-highlight">640</span> into the <span class="cj-highlight">Hide Under Width</span> field will hide the element whenever the Grid Item&#39;s width falls below 640px.</p>
+<p>
+	You can also check the <span class="cj-highlight">Hide if Media is Video</span> box to hide the element if it happens to be a video.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_89.jpg" width="616" height="305"></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_layer_settings_gt_animation">Layer Settings -&gt; Animation</h4>
+<p>
+	In this section, you can set the custom animation for the individual layer.&nbsp; The <span class="cj-highlight">Transition</span> drop-down has 25 choices.&nbsp; After selecting an option, click the blue <span class="cj-highlight">play</span> button in the <span class="cj-highlight">Item Layout</span> section to see a preview of the animation.&nbsp; You can also set a <span class="cj-highlight">delay</span> for the transition to setup sequenced transitions between your item&#39;s elements.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_90.jpg" width="615" height="237" /></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_layer_settings_gt_link_seo">Layer Settings -&gt; Link/SEO</h4>
+<p>
+	The <span class="cj-highlight">Link/SEO</span> section is where you can hyperlink your elements, and also apply HTML attributes for SEO:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_92.jpg" width="616" height="438" /></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong><span class="cj-highlight">Link To</span> options:</strong></p>
+<ul>
+	<li>
+		<strong>None: </strong>No hyperlink applied</li>
+	<li>
+		<strong>Post: </strong>Link to the post that represents the Grid Item</li>
+	<li>
+		<strong>URL: </strong>Link to a custom URL that you enter</li>
+	<li>
+		<strong>Meta: </strong>Link to a custom post-meta</li>
+	<li>
+		<strong>JavaScript: </strong>Enter JavaScript to execute when the element is clicked</li>
+	<li>
+		<strong>LightBox: </strong>Open content in the lightbox when clicked</li>
+	<li>
+		<strong>Play Embedded Video: </strong>Play your video content if available</li>
+</ul>
+<p>&nbsp;
+	</p>
+<p>
+	The <span class="cj-highlight">Use Tag</span> option is the HTML element that will be automatically wrapped around your hyperlink.&nbsp; This allows for more flexibility with styling.&nbsp; If you aren&#39;t sure what tag is best, or don&#39;t plan on utilizing the tag for styling purposes, use the default <span class="cj-highlight">div</span> option.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_93.jpg" width="615" height="421" /></span></p>
+<p>&nbsp;
+	</p>
+<h4 id="item_skin_editor_layer_settings_gt_link_seo_gt_fix_!important">Layer Settings -&gt; Link/SEO -&gt; Fix: !important</h4>
+<p>
+	WordPress themes usually apply global styles to HTML hyperlinks, and sometimes this can cause conflicts with custom styles you wish to use for a module such as Essential Grid.&nbsp; When customizing your skin elements, if you find the styles you&#39;ve selected aren&#39;t showing up correctly, check the <span class="cj-highlight">Fix: !important</span> box, and that will apply <span class="cj-highlight">!important</span> declarations to your Grid Item&#39;s hyperlink styles.&nbsp; Choosing this option will then override your theme&#39;s default hyperlink styles.</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_94.jpg" width="556" height="277" /></span></p>
+<p>&nbsp;
+	</p>
+<p>
+	Lastly, for SEO purposes, you can enter a title into the <span class="cj-highlight">Attribute</span> field, and also assign a class name and <span class="cj-highlight">rel</span> attribute to the hyperlink:</p>
+<p>
+	<span class="img-holder"><img alt="" src="assets/images/pixel.gif" data-src="assets/images/image_95.jpg" width="403" height="158" /></span></p>
+<p>&nbsp;
+	</p>
+</section>
+<section id="plugin_global_settings">
+	<div class="page-header"><h3>Plugin Global Settings</h3><hr class="notop"></div>
+<p>Essential Grid comes with some "Global Settings" that are specific to the plugin itself.</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_175.jpg" width="792" height="262" alt="" /></span></p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_176.jpg" width="621" height="372" alt="" /></span></p>
+<h5>Here's a breakdown of the options listed in the Global Settings:</h5>
+<p>
+<ul class="cj-list">
+<li><strong>View Plugin Permissions:</strong> Choose who can access the plugin's admin when logged into WordPress<ul>
+<li>Admin</li>
+<li>Editor & Admin</li>
+<li>Author & Editor & Admin</li>
+</ul>
+</li>
+<li><strong>Advanced Tooltips:</strong> Enable/Disable tooltips when hovering over parts of the plugin's admin</li>
+<li><strong>Wait for Fonts:</strong> Wait for Google Fonts to load before rendering text on the page</li>
+<li><strong>Output Filter Protection:</strong> Combat custom theme filters that often break a WP plugin's HTML output markup.  Only use this option if your Grid isn't working on the front-end of your site.  Try either available option if this is the case.</li></ul></p>
+</section>
+
+<section id="custom_meta_data">
+	<div class="page-header"><h3>Custom Meta Data</h3><hr class="notop"></div>
+<p>The content for your Grid Items is always going to be based on <span class="cj-highlight">Meta Data</span> such as a post's <span class="cj-highlight">Title</span> or <span class="cj-highlight">Excerpt</span>.  This data can be set inside the <a href="#item_skin_editor">Item Skin Editor</a>.  Here's a screenshot of the default meta data that's available:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_199.jpg" width="934" height="560" alt="" /></span></p>
+<p><br />If you want to add additional information that isn't listed in the screenshot above, this can be done inside the <span class="cj-highlight">Custom Meta Data</span> section:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_200.jpg" width="166" height="348" alt="" /></span></p>
+<p><br />To add a new <span class="cj-highlight">Custom Meta</span> option, click the <span class="cj-highlight">Add New Meta</span> button:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_201.jpg" width="399" height="175" alt="" /></span></p>
+<p><br />You'll then see a popup modal, where you can name your new meta data, and also choose whether it should be based on text, an image, or a select list.  For this example, we'll choose the text option:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_202.jpg" width="335" height="368" alt="" /></span></p>
+<p><br />After clicking the <span class="cj-highlight">Add Meta</span> button, you'll then see the new item listed:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_203.jpg" width="315" height="166" alt="" /></span></p>
+<p><br />If your Grid is based on posts, you'll now see the new Custom Meta Data in the <span class="cj-highlight">Essential Grid Custom Settings</span> section:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_204.jpg" width="565" height="573" alt="" /></span></p>
+<p><br />Or if your using a <span class="cj-highlight">Custom Grid</span> for your Grid's <span class="cj-highlight">Source</span>, the new Meta Data will show up in your Custom Item:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_205.jpg" width="669" height="618" alt="" /></span></p>
+<p><br />Finally, add the new <span class="cj-highlight">Custom Meta Data</span> to your Grid in the <a href="#item_skin_editor">Item Skin Editor</a>:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_206.jpg" width="915" height="362" alt="" /></span></p>
+
+</section>
+
+<section id="adding_a_grid_to_your_site">
+	<div class="page-header"><h3>Adding a Grid to your Site</h3><hr class="notop"></div>
+<p>There are three different ways you can add a grid to your pages.  Each are listed below.</p>
+<h5>Shortcode Method</h5>
+<p>Visit the plugin's main admin page where your Grid is listed, and you'll see your Grid's <span class="cj-highlight">Shortcode</span>:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/images_177.jpg" width="797" height="255" alt="" /></span></p>
+<p>Copy this shortcode, and then paste it into one of your site's pages:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/images_178.jpg" width="758" height="321" alt="" /></span></p>
+<h5 class="cj-h5">Widget Method</h5>
+<p>From <span class="cj-highlight">WP Menu -> Widgets</span>, drag and drop the <span class="cj-highlight">Essential Grid</span> widget into one of the widget sections your theme offers:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/images_179.jpg" width="891" height="393" alt="" /></span></p>
+<h5 class="cj-h5">PHP Method</h5>
+<p>It's always best to use the first two options if possible.  The reason is because the <span class="cj-highlight">PHP Method</span> involves editing your theme's php files, and sometimes this is a bit complex, and it also means if you decide to update your theme, your custom edits will be lost (you'll need to re-add the Grid each time you update your theme).  Having said that, this is sometimes the best option when you want to control exactly where the Grid appears within your theme.  All theme's are different, so the process will vary for everyone, but for this example, we'll add the Grid to the TwentyFourteen's <span class="cj-highlight">page.php</span> file, directly after the "main-content" div's opening tag:</p>
+<pre class="php">
+&lt;div id=&quot;main-content&quot; class=&quot;main-content&quot;&gt;
+
+&lt;?php
+    // 23 = the ID of your page
+    if(get_the_ID() == &#39;23&#39;) {
+        // Ess. Grid shortcode is placed inside the &quot;do_shortcode&quot; method, wrapped in single quotes
+        echo do_shortcode(&#39;[ess_grid alias=&quot;my_first_grid&quot;]&#39;);
+    }
+?&gt;</pre>
+</section>
+
+<section id="google_fonts">
+	<div class="page-header"><h3>Google Fonts</h3><hr class="notop"></div>
+<p>Inside the WordPress menu, you'll see a menu item named <span class="cj-highlight">Punch Fonts</span>.  ThemePunch is also the author of several other WordPress plugins, and the new "Punch Fonts" section is the new way you can include <span class="cj-highlight">Google Fonts</span> for all your ThemePunch plugins (Slider Revolution, ShowbizPro, etc.).</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_185.jpg" width="186" height="262" alt="" /></span></p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_186.jpg" width="639" height="179" alt="" /></span></p>
+<p><br />After clicking the <span class="cj-highlight">Add New Font</span> button, a popup modal will appear where you can enter your Google Font information:</p>
+<br /><ul><li><strong>Handle</strong> - This is essentially the font's "WordPress Alias" that will be used for loading the font.  Use your font's name, all lowercase with no spaces.</li>
+<li><strong>Parameter</strong> - This is the Google Font's "loading parameter" (instructions for this below).</li></ul>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_187.jpg" width="513" height="360" alt="" /></span></p>
+<p><br /><strong>To get your Google Font's loading <span class="cj-highlight">Parameter</span></strong>, visit Google Fonts, and find the font you wish to use:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_188.jpg" width="798" height="332" alt="" /></span></p>
+<p><br />Then click the "Quick Use" icon shown in the screenshot above, and on the next page, scroll down to section #3 named <span class="cj-highlight">Add this code to your website</span>:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_189.jpg" width="781" height="171" alt="" /></span></p>
+<p><br />When copying this code, it's important to make sure you don't include the <span class="cj-highlight">=</span> sign or the single quote <span class="cj-highlight">'</span> </p>
+<p><br />After adding your Google Font, you'll see it listed as one of the <span class="cj-highlight">Punch Fonts</span>:
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_190.jpg" width="588" height="333" alt="" /></span></p>
+<p><br />Finally, <strong>to apply the new font to your Essential Grid</strong>, from the <a href="#item_skin_editor">Item Skin Editor</a>, the new Google Font will be listed in the editor's <span class="cj-highlight">Font Family</span> drop-down, where it can then be applied to one of your Grid Item Skin's layers:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_191.jpg" width="972" height="856" alt="" /></span></p>
+<p><br />And here's our new font applied to the Grid Item's <span class="cj-highlight">Title</span> layer.  To make sure the new font is officially applied, click the <span class="cj-highlight">Save</span> button in the toolbar on the top-right part of the page:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_192.jpg" width="613" height="507" alt="" /></span></p>
+</section>
+
+<section id="import_export">
+	<div class="page-header"><h3>Import/Export</h3><hr class="notop"></div>
+<h5>To learn about importing the demo Grids, <a href="#import_demos">click here</a>.</h5>
+<hr />
+<p>From the WordPress main menu, under the Ess. Grid menu item, you'll find the <span class="cj-highlight">Import/Export</span> section:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_229.jpg" width="174" height="229" alt="" /></span></p>
+<p><br />The <span class="cj-highlight">Import/Export</span> is useful for when you want to transfer a Grid or Grid Skin from one domain to another.  If you need to update the plugin, you won't need to export/import any of your Grid data, as updating the plugin will not override your existing Grids or Grid Skins.  However, in addition to performing regular database backups of your WordPress installation, you can also export your Grid data as a secondary backup if you wish.</p>
+<p><br /><i><strong>Note:</strong> When exporting from one site and importing to another, it's always best to make sure that both sites are using the same version number of Ess. Grid.  To ensure this, update the plugin on both sites to the latest available version before beginning the export/import process.</i></p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_230.jpg" width="403" height="227" alt="" /></span></p>
+<p><br />To create a full export, click the <span class="cj-highlight">Export</span> tab, and click the <span class="cj-highlight">Export Selected</span> button:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_231.jpg" width="481" height="539" alt="" /></span></p>
+<p><br />When exporting, you can choose what you want to export by toggling the checkboxes on and off from an entire category or items within a category:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_232.jpg" width="373" height="560" alt="" /></span></p>
+<p><br />When clicking the <span class="cj-highlight">Export Selected</span> button, you'll be asked to save a ".json" file.  This is the file that will contain all your export information.  Save it in a safe place so it can be imported at a later time.</span></p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_233.jpg" width="453" height="347" alt="" /></span></p>
+<p><br />After creating an export file, it can be imported by clicking the <span class="cj-highlight">Import</span> tab, then selecting the <span class="cj-highlight">Browse</span> button and choosing the ".json" file you previously created, and then clicking the <span class="cj-highlight">Read File</span> button:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_234.jpg" width="554" height="202" alt="" /></span></p>
+<p><br />Next you'll have thue opportunity to choose which parts of the exported data file you wish to import.  All will be selected by default, but you can toggle the categories globally or toggle an item inside a category as well.  Once you've selected what data you wish to import, click the <span class="cj-highlight">Import Selected Data</span> button to complete the import process:</p>
+<p><span class="img-holder"><img src="assets/images/pixel.gif" data-src="assets/images/image_235.jpg" width="736" height="420" alt="" /></span></p>
+</section>
+
+<section id="troubleshooting">
+	<div class="page-header"><h3>Troubleshooting</h3><hr class="notop"></div>
+<p>If you've created a Grid and added it to one of your pages, but it isn't showing up, here's a list of things you check:</p>
+<ul class="cj-list">
+<li>Try a different method of <a href="#adding_a_grid_to_your_site">adding the Grid to your page</a>.</li>
+<li>Try choosing "By Compressing Output" or "By Echo Output" for the <span class="cj-highlight">Output Filter Protection</span> option in the <a href="#plugin_global_settings">Global Settings</a>.</li>
+<li>Update to the latest version of WordPress.</li>
+<li>See if there's a conflict involved with another plugin or your theme.  Temporarily switch to another theme and disable your other plugins one by one and test the page throughout the process.</li>
+<li>View your page's HTML source to see if the page is loading in more than one copy of jQuery's main script (a page should always only load one copy of jQuery).  Usually when a page is loading two copies of jQuery, it's because the theme is loading in a custom copy of jQuery as opposed to the default jQuery that normally comes packaged with WordPress.</li>
+
+<br /><br /><br /><br /><br />
+</section>
+
+
+
+    <hr />
+
+<footer>
+    <p>Copyright ThemePunch 2014 made with the <a href="http://rxa.li/documenter">Documenter v2.0</a></p>
+</footer>
+
+</div><!-- /container --> 
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script>document.createElement('section');var duration='500',easing='swing';</script>
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-min.js"></script> 
+<script src="assets/js/cj-lazyload.js"></script>
+
+</body>
+</html>

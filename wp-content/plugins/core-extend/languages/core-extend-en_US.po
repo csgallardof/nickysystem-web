@@ -1,0 +1,1631 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MNKY | Theme Core Extend v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-11-01 13:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ core-extend
+#: config/map.php:11
+msgid "CSS Animation"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:15
+msgid "No"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:16
+msgid "Top to bottom"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:17
+msgid "Bottom to top"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:18
+msgid "Left to right"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:19
+msgid "Right to left"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:20
+msgid "Appear from center"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:22
+msgid "Select type of animation if you want this element to be animated when it enters into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:27
+msgid "CSS Animation Delay"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:58
+msgid "Row"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:63
+#: config/map.php:224
+#: config/map.php:362
+#: config/map.php:844
+msgid "Content"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:65
+msgid "Place content elements inside the row"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:69
+msgid "Full width content"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:71
+#: config/map.php:649
+#: config/map.php:1060
+#: config/map.php:1101
+msgid "Yes, please"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:75
+#: config/map.php:304
+#: config/map.php:1015
+msgid "Background color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:77
+#: config/map.php:83
+#: config/map.php:92
+#: config/map.php:101
+#: config/map.php:110
+#: config/map.php:119
+#: config/map.php:128
+#: config/map.php:137
+msgid "Background"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:81
+msgid "Background image"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:87
+msgid "Parallax background"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:89
+msgid "Enable parallax effect during the scroll"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:90
+#: config/map.php:108
+#: config/map.php:258
+msgid "Enable"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:96
+msgid "Parallax speed"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:99
+msgid "You can change the speed by altering the decimal number.  A lower number means slower, higher means faster, and 0.20 is the default."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:105
+msgid "Full background cover"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:107
+msgid "Scale the background image to be as large as possible so that the background area is completely covered by the background image. Some parts of the background image may not be in view within the background positioning area."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:114
+msgid "Background repeat"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:117
+msgid "The background-repeat property sets if/how a background image will be repeated."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:123
+msgid "Background position"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:126
+msgid "The background-position property sets the starting position of a background image."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:132
+msgid "Background attachment"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:135
+msgid "The background-attachment property sets whether a background image is fixed or scrolls with the rest of the page."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:141
+msgid "Row top seperator (divider)"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:144
+msgid "Separator separates current row from content element above"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:148
+msgid "Font Color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:150
+#: config/map.php:157
+#: config/map.php:164
+msgid "Typography"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:154
+msgid "Font weight"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:156
+#: config/map.php:163
+msgid "Inherit"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:156
+msgid "Normal"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:156
+msgid "Lighter"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:156
+msgid "Bold"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:156
+msgid "Bolder"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:161
+msgid "Row text align"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:163
+#: config/map.php:299
+#: config/map.php:450
+#: config/map.php:818
+#: config/map.php:865
+msgid "Left"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:163
+#: config/map.php:450
+#: config/map.php:818
+#: config/map.php:865
+msgid "Center"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:163
+#: config/map.php:299
+#: config/map.php:450
+#: config/map.php:818
+#: config/map.php:865
+msgid "Right"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:168
+msgid "Padding top"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:171
+msgid "The padding-top property sets the top padding (space) of an element."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:175
+msgid "Padding bottom"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:178
+msgid "The padding-badding property sets the bottom padding (space) of an element."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:182
+msgid "Add ID to section"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:184
+msgid "Section ID"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:185
+msgid "This ID is used to make one page menu or scroll to anchor. Please give unique ID to each row, if using menu for one page style."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:189
+#: config/map.php:271
+#: config/map.php:348
+#: config/map.php:407
+#: config/map.php:456
+#: config/map.php:532
+#: config/map.php:606
+#: config/map.php:653
+#: config/map.php:715
+#: config/map.php:763
+#: config/map.php:829
+#: config/map.php:933
+#: config/map.php:1001
+#: config/map.php:1168
+msgid "Extra class name"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:191
+#: config/map.php:273
+#: config/map.php:350
+#: config/map.php:409
+#: config/map.php:458
+#: config/map.php:534
+#: config/map.php:608
+#: config/map.php:655
+#: config/map.php:717
+#: config/map.php:765
+#: config/map.php:831
+#: config/map.php:935
+#: config/map.php:1003
+#: config/map.php:1170
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:195
+msgid "Row columns"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:197
+msgid "When enabled, all columns are made 100% wide and stacked above each other"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:198
+msgid "Make this row content 100% width in Tablet Portrait (on screen sizes smaller than 979px)"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:199
+#: config/map.php:212
+msgid "Responsive options"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:203
+msgid "Hide this row on screen sizes:"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:221
+msgid "Styled Button"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:225
+msgid "Eye catching button"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:229
+#: config/map.php:512
+#: config/map.php:749
+#: config/map.php:822
+msgid "URL (Link)"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:234
+#: config/map.php:238
+#: include/templates/shortcodes/vc_button.php:10
+msgid "Text on the button"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:242
+msgid "Size"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:244
+msgid "Regular size"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:244
+msgid "Medium"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:244
+msgid "Large"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:248
+msgid "Color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:250
+#: config/map.php:388
+msgid "Theme accent color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:250
+msgid "White"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:250
+#: config/map.php:388
+msgid "Grey"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:250
+#: config/map.php:388
+msgid "Blue"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:250
+#: config/map.php:388
+msgid "Turquoise"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:250
+#: config/map.php:388
+msgid "Green"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:250
+#: config/map.php:388
+msgid "Orange"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:250
+#: config/map.php:388
+msgid "Red"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:250
+#: config/map.php:388
+msgid "Black"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:251
+msgid "Button color."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:255
+msgid "Minimal button style?"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:257
+msgid "Contours & text in selected color with transparent background"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:263
+#: config/map.php:477
+#: config/map.php:736
+#: config/map.php:783
+#: config/map.php:856
+msgid "Icon"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:282
+msgid "Colored Box"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:285
+#: config/map.php:420
+#: config/map.php:469
+#: config/map.php:547
+#: config/map.php:623
+#: config/map.php:683
+#: config/map.php:731
+#: config/map.php:777
+#: config/map.php:892
+#: config/map.php:949
+#: config/map.php:1113
+msgid "Premium"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:286
+msgid "Colored background box with text"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:290
+msgid "Box width (optional)"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:293
+msgid "Default width is 100%. You can use % or px. Example: 550px"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:297
+msgid "Box align"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:299
+msgid "Centred"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:307
+#: config/map.php:525
+#: config/map.php:599
+#: config/map.php:745
+#: config/map.php:792
+msgid "Leave empty to use \\\"Theme accent color\\\""
+msgstr ""
+
+#@ core-extend
+#: config/map.php:311
+msgid "Border color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:314
+msgid "Leave empty for no border"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:318
+msgid "Box paddings"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:321
+msgid "The padding property can have from one to four values. Example: 25px 50px 75px 90px"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:325
+msgid "Margin left (optional)"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:327
+msgid "The margin-left property sets the left margin of an element. Example: 40px"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:332
+msgid "Margin right (optional)"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:334
+msgid "The margin-right property sets the right margin of an element. Example: 40px"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:340
+msgid "Box text"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:342
+msgid "<p>Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:359
+msgid "Progress Bar"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:363
+msgid "Animated progress bar"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:367
+msgid "Widget title"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:369
+msgid "What text use as a widget title. Leave blank if no title is needed."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:373
+msgid "Graphic values"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:375
+msgid "Input graph values here. Divide values with linebreaks (Enter). Example: 90|Development"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:380
+msgid "Units"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:382
+msgid "Enter measurement units (if needed) Eg. %, px, points, etc. Graph value and unit will be appended to the graph title."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:386
+msgid "Bar color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:388
+msgid "Custom Color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:389
+msgid "Select bar background color."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:394
+msgid "Bar custom color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:396
+msgid "Select custom background color for bars."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:401
+msgid "Options"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:403
+msgid "Add Stripes?"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:403
+msgid "Add animation? Will be visible with striped bars."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:417
+msgid "Styled Heading"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:421
+msgid "Eye catching headings"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:425
+#: config/map.php:802
+#: config/map.php:954
+#: config/map.php:1121
+#: include/portfolio_post_type.php:117
+msgid "Title"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:433
+msgid "Sub-title"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:437
+msgid "Subtitle will be positioned under main title"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:441
+#: config/map.php:1023
+msgid "Text color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:448
+msgid "Text align"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:466
+msgid "Icons"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:470
+msgid "Scalable vector icons"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:484
+msgid "Icon size"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:491
+#: config/map.php:790
+#: config/map.php:877
+msgid "Icon color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:498
+msgid "Padding left"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:501
+msgid "The padding-left property sets the left padding (space) of an element."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:505
+msgid "Padding right"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:508
+msgid "The padding-right property sets the right padding (space) of an element."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:517
+#: config/map.php:1090
+msgid "Hover effect"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:519
+msgid "None"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:519
+msgid "Fade out"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:519
+msgid "Change color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:519
+msgid "Bounce"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:519
+msgid "Shrink"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:523
+msgid "Hover color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:543
+msgid "Team"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:548
+msgid "Staff members"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:552
+#: config/map.php:628
+#: config/map.php:1161
+msgid "Style"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:554
+#: config/map.php:630
+msgid "Style 1"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:554
+#: config/map.php:630
+msgid "Style 2"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:558
+msgid "Member image"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:562
+msgid "Recommended min. width: 540px"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:566
+msgid "Name"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:574
+msgid "Position"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:578
+msgid "e.g. \\\"Senior Designer\\\""
+msgstr ""
+
+#@ core-extend
+#: config/map.php:582
+msgid "Hover text (optional)"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:590
+msgid "Aditional info (optional)"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:597
+msgid "Color scheme"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:617
+msgid "Testimonials"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:624
+msgid "Quote slider"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:630
+msgid "Style 3"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:630
+msgid "Style 4"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:634
+msgid "Animation"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:636
+msgid "Fade"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:636
+msgid "Slide"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:640
+msgid "Slide show speed"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:643
+msgid "Set the speed of the slideshow cycling, in seconds"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:647
+msgid "Hide paging control?"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:664
+msgid "Add navigation link"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:664
+msgid "Add testimonial"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:678
+msgid "Testimonial"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:687
+msgid "Author image"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:692
+msgid "Author name"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:700
+msgid "Author info"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:703
+msgid "e.g. \\\"Senior Designer\\\" or  \\\"Happy Customer\\\""
+msgstr ""
+
+#@ core-extend
+#: config/map.php:708
+msgid "Testimonial/Quote text"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:711
+msgid "<p>I am tetimonial text. Click edit button to change this text.</p>"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:726
+msgid "List Item"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:730
+msgid "List with custom icon"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:743
+msgid "List icon color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:754
+msgid "List item text"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:757
+msgid "I am a list item"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:774
+msgid "Service"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:778
+msgid "Service info with custom icon"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:796
+msgid "Heading color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:798
+msgid "Leave empty to use default heading color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:805
+msgid "Your service title"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:809
+msgid "Service description"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:812
+msgid "I am service box text. Click edit button to change this text."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:816
+msgid "Layout style"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:841
+msgid "Separator"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:845
+msgid "Horizontal separator line"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:849
+msgid "Type"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:851
+msgid "Line with icon"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:851
+msgid "Simple line"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:851
+msgid "Short double line"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:851
+msgid "Shadow line"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:863
+msgid "Icon align"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:870
+msgid "Separator line color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:889
+msgid "Count To"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:893
+msgid "Animated numerical data"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:897
+msgid "Value you want to begin at"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:904
+msgid "Value you want to arrive at"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:912
+msgid "Duration in milliseconds"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:919
+msgid "Interval"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:922
+msgid "How often the element should be updated"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:926
+msgid "Decimals"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:929
+msgid "The number of decimal places to show"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:944
+msgid "Pricing"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:950
+msgid "Styled pricing boxes"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:957
+msgid "Give your plan a title."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:958
+msgid "Starter Pack"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:962
+msgid "Currency"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:965
+msgid "Enter currency symbol or text, e.g., $ or USD."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:966
+msgid "$"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:970
+msgid "Price"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:973
+msgid "Set the price for this plan."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:974
+msgid "10"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:978
+msgid "Time"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:981
+msgid "Choose time span for you plan, e.g., /mo, month or /yr."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:982
+msgid "/mo"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:986
+msgid "Meta"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:989
+msgid "A short desciption or slogan for the plan."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:990
+msgid "Great for small business"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:994
+msgid "Add URL to the whole box (optional)"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1007
+msgid "Select style"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1010
+msgid "Choose style for this pricing box."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1011
+#: config/map.php:1019
+#: config/map.php:1027
+#: config/map.php:1034
+#: config/map.php:1043
+#: config/map.php:1052
+msgid "Design"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1018
+msgid "Set background color for pricing box body."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1026
+msgid "Set text color for pricing box content."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1031
+msgid "Header background color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1035
+msgid "Set background color for box header."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1040
+msgid "Header text color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1044
+msgid "Set color for text inside box header area."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1049
+msgid "Border color (optional)"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1051
+msgid "Add border to whole box. Leave empty for no border."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1056
+msgid "Add badge?"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1058
+#: config/map.php:1066
+#: config/map.php:1074
+#: config/map.php:1084
+msgid "Badge"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1064
+msgid "Badge background color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1067
+msgid "Set a background color for the badge."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1072
+msgid "Badge text color"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1076
+msgid "Set a text color for the badge."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1081
+msgid "Badge text"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1083
+msgid "Best Offer"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1085
+msgid "What do you want your badge to say? , E.g., 50% Off or Save 30%."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1093
+msgid "Enable and choose a hover effect."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1094
+#: config/map.php:1100
+msgid "Effect"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1098
+msgid "Always active? (by default only on hover state)"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1102
+msgid "Use this option, if you want to accentuate one of the boxes."
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1110
+msgid "Popover"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1114
+msgid "Tooltip with custom content"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1123
+msgid "If title is left empty, title bar will be hidden"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1127
+msgid "Popover text"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1129
+msgid "Add some tooltip content"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1133
+msgid "Width"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1136
+msgid "Enter popover width e.g. 300"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1140
+msgid "Height"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1143
+msgid "Enter popover height e.g. 200"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1147
+msgid "Placement"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1150
+msgid "Choose placement for the tooltip"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1154
+msgid "Trigger"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1157
+msgid "Choose between on-hover or on-click trigger"
+msgstr ""
+
+#@ core-extend
+#: config/map.php:1164
+msgid "What style do you prefer?"
+msgstr ""
+
+#@ core-extend
+#: core-extend.php:50
+msgid "<strong>MNKY | Theme Core Extend</strong> requires Visual Composer plugin to be installed and activated on your site."
+msgstr ""
+
+#@ core-extend
+#: include/classes/testimonials.php:16
+#: include/classes/testimonials.php:21
+msgid "value"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:6
+msgctxt "Post Type General Name"
+msgid "Portfolios"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:7
+msgctxt "Post Type Singular Name"
+msgid "Portfolio"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:8
+msgid "Portfolio"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:9
+msgid "Parent Item:"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:10
+msgid "All Items"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:11
+msgid "View Item"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:12
+msgid "Add New Item"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:13
+msgid "Add New"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:14
+msgid "Edit Item"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:15
+msgid "Update Item"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:16
+msgid "Search Item"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:17
+msgid "Not found"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:18
+msgid "Not found in Trash"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:21
+msgid "portfolio-item"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:22
+msgid "Portfolio Post Type"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:53
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:54
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:55
+msgid "Search Categories"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:56
+msgid "All Categories"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:57
+msgid "Parent Category"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:58
+msgid "Parent Category:"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:59
+msgid "Edit Category"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:60
+msgid "Update Category"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:61
+msgid "Add New Category"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:62
+msgid "New Category Name"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:63
+msgid "Category"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:79
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:80
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:81
+msgid "Search Tags"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:82
+msgid "Popular Tags"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:83
+msgid "All Tags"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:86
+msgid "Edit Tag"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:87
+msgid "Update Tag"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:88
+msgid "Add New Tag"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:89
+msgid "New Tag Name"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:90
+msgid "Separate tags with commas"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:91
+msgid "Add or remove tags"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:92
+msgid "Choose from the most used tags"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:93
+msgid "No tags found."
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:94
+#: include/portfolio_post_type.php:120
+msgid "Tags"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:118
+msgid "Image"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:119
+msgid "Categories"
+msgstr ""
+
+#@ core-extend
+#: include/portfolio_post_type.php:121
+msgid "Date"
+msgstr ""
+
